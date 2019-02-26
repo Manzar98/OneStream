@@ -4742,6 +4742,7 @@ input[type="button"].btn-block {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  border-bottom: 1px solid #3a3b4554;
 }
 
 .navbar-expand .navbar-nav .dropdown-menu {
@@ -11831,7 +11832,7 @@ body.sidebar-toggled footer.sticky-footer {
        .image_inner_container{
        	border-radius: 50%;
        	padding: 5px;
-        
+
        }
        .image_inner_container img {
     height: 35px;
@@ -11861,7 +11862,7 @@ width:100%}
     width: 65%;
     background: white;
 }
-	
+
 	.left-menu .new-stream{border-left: 1px solid #3a3b4538;
 	border-right: 1px solid #3a3b4538;
 }
@@ -11934,7 +11935,7 @@ width:100%}
 	.card-text:hover {
     color: #fff;
 	text-decoration:none}
-	
+
 .card-text .fa-plus {
     border: 1px solid #fff;
     border-radius: 50%;
@@ -11985,7 +11986,7 @@ width:100%}
 .drop-header {
     background: #f4f4f4 !important;
     border: none !important;
-   
+
     /* padding-top: 12px; */
 }
 .drop-header a{ color: #000 !important;}
@@ -12004,7 +12005,7 @@ font-weight:bold}
     overflow: hidden;
     height: 392px;
 }
- 
+
 .caption {
     position:absolute;
     top:-100%;
@@ -12033,7 +12034,7 @@ font-weight:bold}
     margin-top: 20%;
     font-size: 14px;
 }
-    
+
 .history-dlt-btn {
     background: #d81717;
     margin-left: 3%;
@@ -12085,8 +12086,8 @@ margin-bottom: 1.5rem !important;}
 /* stop the glowing blue shadow */
 .add-on .form-control:focus {
  box-shadow:none;
- -webkit-box-shadow:none; 
- border-color:#cccccc; 
+ -webkit-box-shadow:none;
+ border-color:#cccccc;
 }
 .date{display: -webkit-box !important;}
 .calender-btn button{background: white;
@@ -12097,7 +12098,53 @@ margin-bottom: 1.5rem !important;}
 
 
 
-/* Custom Css By Abdullah */
+/* ******================
+ Custom Css By Abdullah
+
+ **********=============*/
+
+ /* *****
+ Dashboard Css
+ ****** */
+.dash-icons{
+  background-image: url('../img/Sprite.png');
+  display: inline-block;
+  width: 50px;
+  height: 43px;
+  background-position: 0px -10px;
+}
+.small-card {
+    padding: 1.3rem;
+}
+.play-stream{
+  top: -5px;
+  left: 0;
+  position: relative;
+  background-position: 49px -6px;
+}
+.play-stream-two {
+    left: -7px;
+    position: relative;
+}
+.time-stream{
+    background-position: -55px -5px;
+    left: -7px;
+    position: relative;
+    top: -7px;
+}
+.people-icon{
+  background-position: -110px -10px;
+  left: -5px;
+  position: relative;
+}
+.recycle-icon{
+  background-position: -169px -8px;
+top: -6px;
+position: relative;
+}
+/* ***** =====================
+New Stream Css
+==================== ****** */
 .upgrade-success-btn{
 
     font-size: 12px;
