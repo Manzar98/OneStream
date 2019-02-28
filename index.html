@@ -13,8 +13,8 @@
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
+  <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <!-- Custom styles for this template-->
 
   <link href="css/custom.css" rel="stylesheet">
@@ -93,13 +93,13 @@
                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
               </div>
             </li>
-            
+
             <li class="nav-item dropdown no-arrow mx-1 new-stream">
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                <span class="fa fa-plus plus-icon"></span>
                <span class="schedule-text"> New Stream</span>
                <!-- Counter - Alerts -->
-               
+
              </a>
              <!-- Dropdown - Alerts -->
              <div class="dropdown-list dropdown-menu  shadow animated--grow-in" aria-labelledby="alertsDropdown">
@@ -144,7 +144,7 @@
           </li>
 
 
-          
+
 
           <!-- Topbar Navbar -->
 
@@ -325,7 +325,7 @@
         </a>
         <div class="dropdown-divider"></div>
         <p class="text-center">Version 4.0.3</p>
-        <button href="#" class="btn btn-default dropdown-item btn-sm load-version ">  <i class="fas fa-sync-alt fa-fw load-version-icon"></i> Load Latest Version</button> 
+        <button href="#" class="btn btn-default dropdown-item btn-sm load-version ">  <i class="fas fa-sync-alt fa-fw load-version-icon"></i> Load Latest Version</button>
       </div>
     </li>
 
@@ -339,11 +339,12 @@
 
   <!-- Page Heading -->
   <div class=" align-items-center  mb-4 title">
-    <i class="fas fa-play fa-fw"></i>
+    <!-- <i class="fas fa-play fa-fw"></i> -->
+    <span class="dash-icons play-stream float-left"></span>
     <div>
       <h1 class="h3 mb-0 text-gray-800">WELCOME TO <strong> ONESTREAM PANEL</strong></h1>
       <p class="" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet egestas eros. Aenean vel ex eleifend, mattis urna vel, viverra ipsum. </p>
-    </div> 
+    </div>
   </div>
 
   <!-- Content Row -->
@@ -359,7 +360,8 @@
         <div class="col-lg-6 mb-4">
           <div class="card bg-primary text-white shadow card1">
             <div class="card-body small-card">
-              <i class="fas fa-play"></i>
+              <!-- <i class="fas fa-play"></i> -->
+              <span class="dash-icons play-stream-two"></span>
               <i class="fas fa-redo-alt fa-pull-right"></i>
               <p>10</p>
               <p>ON GOING LIVE STREAMS</p>
@@ -371,7 +373,8 @@
           <div class="col-lg-6 mb-4">
             <div class="card bg-success text-white shadow card2">
              <div class="card-body small-card">
-              <i class="fas fa-play"></i>
+              <!-- <i class="fas fa-play"></i> -->
+              <span class="dash-icons time-stream"></span>
               <i class="fas fa-redo-alt fa-pull-right"></i>
               <p>10</p>
               <p>SCHEDULED STREAMS</p>
@@ -383,7 +386,8 @@
           <div class="col-lg-6 mb-4">
             <div class="card bg-info text-white shadow card3">
               <div class="card-body small-card">
-                <i class="fas fa-play"></i>
+                <!-- <i class="fas fa-play"></i> -->
+                <span class="dash-icons people-icon"></span>
                 <i class="fas fa-redo-alt fa-pull-right"></i>
                 <p>1000</p>
                 <p>LIVE VIEWERS</p>
@@ -395,7 +399,8 @@
             <div class="col-lg-6 mb-4">
               <div class="card bg-warning text-white shadow card4">
                <div class="card-body small-card">
-                <i class="fas fa-play"></i>
+                <!-- <i class="fas fa-play"></i> -->
+                <span class="dash-icons recycle-icon"></span>
                 <i class="fas fa-redo-alt fa-pull-right"></i>
                 <p>BASIC</p>
                 <p>20 STREAMS ALLOWED</p>
@@ -415,7 +420,7 @@
           <!-- Illustrations -->
           <div class="card shadow mb-4 thumbnail">
             <div class="card-header py-3 graph-head">
-              <h6 class="m-0 font-weight-bold text-primary">Live Viewers</h6> 
+              <h6 class="m-0 font-weight-bold text-primary">Live Viewers</h6>
               <button class="btn btn-default dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="float: right;
               background: #f7f7f7;
               color: #000;
@@ -428,9 +433,9 @@
               <div class="">
                 <div class="caption">
 
-                  <p>Your current Subscription does not allow to view these statistics.<br>
+                  <p class="dashboard-cap-p">Your current Subscription does not allow to view these statistics.<br>
                   Please Upgrade to view Live Analytics </p>
-                  
+
                   <button class="btn btn-danger upgrade-btn">UPGRADE PLAN</button>
                 </div>
                 <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/undraw_posting_photo.svg" alt="">
@@ -456,8 +461,10 @@
           </div>
           <!-- Card Body -->
           <div class="card-body">
-            <div class="chart-area">
-              <canvas id="myAreaChart"></canvas>
+            <div class="chartDiv">
+              <!-- <canvas id="myAreaChart"> -->
+                <img src="img/cap.png" class="img-responsive chartImg">
+              <!-- </canvas> -->
             </div>
           </div>
         </div>

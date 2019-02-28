@@ -13,11 +13,12 @@
 
   <!-- Custom fonts for this template-->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
+  <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <!-- Custom styles for this template-->
 
   <link href="../css/custom.css" rel="stylesheet">
+  <link href="../css/dropify.css" rel="stylesheet">
 
 </head>
 
@@ -25,9 +26,6 @@
 
   <!-- Page Wrapper -->
   <div id="wrapper">
-
-
-
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
 
@@ -93,13 +91,13 @@
                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
               </div>
             </li>
-            
+
             <li class="nav-item dropdown no-arrow mx-1 new-stream">
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                <span class="fa fa-plus plus-icon"></span>
                <span class="schedule-text"> New Stream</span>
                <!-- Counter - Alerts -->
-               
+
              </a>
              <!-- Dropdown - Alerts -->
              <div class="dropdown-list dropdown-menu  shadow animated--grow-in" aria-labelledby="alertsDropdown">
@@ -144,7 +142,7 @@
           </li>
 
 
-          
+
 
           <!-- Topbar Navbar -->
 
@@ -325,7 +323,7 @@
         </a>
         <div class="dropdown-divider"></div>
         <p class="text-center">Version 4.0.3</p>
-        <button href="#" class="btn btn-default dropdown-item btn-sm load-version ">  <i class="fas fa-sync-alt fa-fw load-version-icon"></i> Load Latest Version</button> 
+        <button href="#" class="btn btn-default dropdown-item btn-sm load-version ">  <i class="fas fa-sync-alt fa-fw load-version-icon"></i> Load Latest Version</button>
       </div>
     </li>
 
@@ -339,11 +337,11 @@
 
   <!-- Page Heading -->
   <div class=" align-items-center  mb-4 title">
-    <i class="fas fa-play fa-fw"></i>
+    <span class="dash-icons play-stream float-left"></span>
     <div>
       <h1 class="h3 mb-0 text-gray-800"><strong>New Stream</strong></h1>
       <p class="" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet egestas eros. Aenean vel ex eleifend, mattis urna vel, viverra ipsum. </p>
-    </div> 
+    </div>
   </div>
 
   <!-- Content Row -->
@@ -354,65 +352,64 @@
     <div class="col-lg-12 mb-4">
 
       <!-- Illustrations -->
-      <div class="card shadow mb-4 thumbnail">
-
-        <div class="card-body">
-          <div class="text-center dueBody">
+      <div class="card shadow mb-4 mainnewstream">
+    
+        <div class="card-body "><!-- dueBody -->
+          <div class="text-center ">
             <div class="row">
               <div class="col-lg-6 mb-2">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">MAX VIDEO SIZE: 1GB</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card max1Gb newStreamCard"> <!-- newStreamCard -->
+                  <div class="card-body ">
+                    <!-- <input type="file" id="input-file-max-fs" class="dropify" data-max-file-size="1GB"> -->
+                     <p class="card-title insideCardP pb-3">MAX VIDEO SIZE: 1GB</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a>  -->
+                    <div class="max1Wrap my-2"><span class="max1Gb">Drag or Click here to Upload Video</span></div>
+                    <p class="maxVidSizeP py-3">Only media files of extensions .mov, .mp4, .mkv are allowed to be uploaded.</p>
+
                   </div>
+                </div>
+                <div class="recommendedVideoDiv">
+                  <a href="" class="text-danger">Recommended Video Settings&nbsp; <i class="fas fa-arrow-right smallIcon"></i></a>
                 </div>
               </div>
 
               <div class="col-lg-6 mb-2">
-                <div class="card">
+                <div class="card newStreamCard">
                   <div class="card-body">
-                    <h5 class="card-title">FOR UNLIMITED VIDEO SIZE UPLOAD VIDEO FROM</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <p class="card-title insideCardP forUnlimit">FOR UNLIMITED VIDEO SIZE UPLOAD VIDEO FROM</p>
+                    <div class="row uploadIconDiv">
+                      <div class="col-lg-4 uploadIcon mb-2">
+                        <div class="dDrive mx-auto">
+                          <i class="fab fa-dropbox"></i></br>
+                          <p>DROPBOX</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 uploadIcon mb-2">
+                        <div class="gDrive mx-auto">
+                         <i class="fab fa-google-drive"></i></br>
+                         <p>GOOGLE</br>DRIVE</p>
+                       </div>
+                     </div>
+                     <div class="col-lg-4 uploadIcon  mb-2">
+                      <div class="oDrive mx-auto">
+                        <p>ONEDRIVE</p>
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </div>
-
-
-
   </div>
+
+
+
 </div>
-
-<div class="row">
-
-  <!-- Area Chart -->
-  <div class="col-xl-12 col-lg-12">
-    <div class="card shadow mb-4">
-      <!-- Card Header - Dropdown -->
-      <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between graph-head">
-        <h6 class="m-0 font-weight-bold text-primary">Live Streaming History - Last 6 Days</h6>
-
-      </div>
-      <!-- Card Body -->
-      <div class="card-body">
-        <div class="chart-area">
-          <canvas id="myAreaChart"></canvas>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
 </div>
 <!-- /.container-fluid -->
 
@@ -461,15 +458,25 @@
 <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for all pages-->
-<script src="../js/sb-admin-2.min.js"></script>
+<!-- <script src="../js/sb-admin-2.min.js"></script> -->
 
 <!-- Page level plugins -->
 <script src="../vendor/chart.js/Chart.min.js"></script>
 
 <!-- Page level custom scripts -->
-<script src="../js/demo/chart-area-demo.js"></script>
-<script src="../js/demo/chart-pie-demo.js"></script>
+<!-- <script src="../js/demo/chart-area-demo.js"></script> -->
+<!-- <script src="../js/demo/chart-pie-demo.js"></script> -->
+<script src="../vendor/dropify.js"></script>
 
 </body>
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    $('.dropify').dropify();
+
+    $('.max1Gb').find('.dropify-infos-message').text('asdadad')
+    // debugger
+  })
+</script>
 
 </html>
