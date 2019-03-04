@@ -4718,7 +4718,7 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
-  
+
 }
 
 @media (min-width: 576px) {
@@ -13053,10 +13053,10 @@ body.sidebar-toggled footer.sticky-footer {
       border: none !important;
       /* padding-top: 12px; */
     }
-    .drop-header a{ 
+    .drop-header a{
       color: #000 !important;
     }
-    .drop-header a:hover{ 
+    .drop-header a:hover{
       color: #000 !important;
       text-decoration:none
     }
@@ -13501,7 +13501,7 @@ New Stream Css
 }
 .tabsUl .nav-item.active a{
   color: #dc143c;
-  
+
 }
 .recommendedVideoDiv{
   margin-top: 20px;
@@ -13525,7 +13525,7 @@ New Stream Css
 }
 .insideCardP{
   width: 60%;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding:30px 0;
   font-size: 16px;
 }
@@ -13545,10 +13545,10 @@ New Stream Css
 .dDrive p{
   font-weight: 600;
   color: #FFF;
-  padding-top: 13px;
+  padding-top: 2px;
   font-size: 13px;
   position: relative;
-  top: -9px;
+  top: -10px;
 }
 .gDrive{
   height: 116px;
@@ -13565,7 +13565,7 @@ New Stream Css
 .gDrive p{
     font-weight: 700;
     color: #323232;
-     padding-top: 5px; 
+     padding-top: 5px;
     font-size: 13px;
     position: relative;
     top: -10px;
@@ -13593,13 +13593,15 @@ New Stream Css
   top: -1px;
 }
 .newStreamCard{
-  width: 510px;
   margin:0 auto;
   height: 315px;
   margin-top: 15px;
   border: 1px dashed;
   border-radius:15px;
   margin-top: 60px;
+}
+.uploadIcon{
+  cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
 
@@ -13634,7 +13636,7 @@ New Stream Css
     top: 128px;
     right: 105px;
   }
-} 
+}
 
 .uploadIconDiv {
   padding: 0 20px;
@@ -13670,11 +13672,11 @@ New Stream Css
     top: -10px;
 }
 .new-drop-icon{
-  background-position: -100px -13px !important;
-    width: 62px !important;
-    height: 57px !important;
+  background-position: -94px -9px !important;
+    width: 80px !important;
+    height: 65px !important;
     position: relative;
-    top: -6px;
+    top: -11px;
 }
 .new-cloud-icon{
   background-position: -270px -16px !important;
@@ -13728,8 +13730,8 @@ label.videoInfo-label {
   float: right !important;
   padding-left: 5px;
 }
-#title:focus, #title1:focus, 
-#timezone:focus, #dtime:focus, 
+#title:focus, #title1:focus,
+#timezone:focus, #dtime:focus,
 #event:focus, #privacy:focus{
 
   color: #6e707e;
@@ -13806,7 +13808,7 @@ label.videoInfo-label {
 .btn-dark-black{
   color: #fff;
   /*background-color: #e02d1b;*/
-  border-color: #323232; 
+  border-color: #323232;
   background: #323232 !important;
   font-size: 12px;
   height: 42px;
@@ -13815,7 +13817,7 @@ label.videoInfo-label {
 .btn-dark-black:hover{
   color: #fff;
   /*background-color: #e02d1b;*/
-  border-color: #323232; 
+  border-color: #323232;
   background: #323232 !important;
 }
 .upBtn{
@@ -14087,7 +14089,7 @@ Styling for Schedule Setting page
   color: #cce1f2;
 }
 /*========================
-Styling for Schedule list page 
+Styling for Schedule list page
 ============================*/
 ul.info-ul li {
   padding-bottom: 40px;
@@ -14095,6 +14097,16 @@ ul.info-ul li {
   font-size: 14px;
   font-weight: 600;
 
+}
+.schedule-info-details .far.fa-clock{
+  position: relative;
+  left: -2px;
+}
+.schedule-info-details .far.fa-user{
+  margin-right: 5px;
+}
+.schedule-info-details .fab.fa-facebook-f.fb-Color{
+  margin-right: 11px;
 }
 .fb-Color{
   color: #4267b2;
@@ -14107,7 +14119,7 @@ ul.info-ul li {
 .btn-green{
   color: #fff;
   /*background-color: #e02d1b;*/
-  border-color: #89bc00; 
+  border-color: #89bc00;
   background: #89bc00 !important;
   font-size: 15px;
   height: 38px;
@@ -14116,7 +14128,7 @@ ul.info-ul li {
 .btn-green:hover{
   color: #fff;
   /*background-color: #e02d1b;*/
-  border-color: #89bc00; 
+  border-color: #89bc00;
   background: #89bc00 !important;
 }
 .prep-btn-wrap p{
@@ -14221,7 +14233,7 @@ ul.info-ul li {
 /*@media (min-width: 767.98px)  {
 
  .edit-delete-div {
-     margin-top: 0px; 
+     margin-top: 0px;
 }
 } */
 
