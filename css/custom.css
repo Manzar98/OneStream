@@ -48,7 +48,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  
+
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
@@ -13276,212 +13276,6 @@ body.sidebar-toggled footer.sticky-footer {
 .chartDiv{
   padding: 15px;
 }
-/* ***** =====================
-New Stream Css
-==================== ****** */
-.upgrade-success-btn{
-
-  font-size: 12px;
-  height: 42px;
-  border: 1px solid #FFF;
-}
-.captionDiv .caption p{
-
- margin-top: 15px;
-}
-.captionChildDiv{
- margin-top: 5%;
-}
-.captionChildDiv .smallIcon{
-  font-size: 7px;
-}
-.learMoreDiv{
-  margin-bottom: 50px;
-}
-.learMoreDiv a {
-  font-size: 13px;
-}
-.learMoreDiv i{
-  position: relative;
-  top: -1px;
-}
-.infoIcon{
-  font-size: 10px;
-}
-.dueBody{
-  /*padding: 0 50px;*/
-  padding-top: 30px;
-}
-.cardWrap{
-
-  padding: 20px;
-  height: 100%
-}
-.tabsUl{
-  padding-top: 25px;
-  margin:0 auto;
-  width: 97%;
-}
-.tabsUl li{
-  border-bottom: 1px solid;
-  padding-bottom:10px;
-
-}
-.tabsUl li a{
-  color: #000;
-  font-weight: 600;
-}
-.tabsUl .nav-item.active{
-  border-bottom: 3px solid #252525;
-
-}
-.tabsUl .nav-item.active a{
-  color: #dc143c;
-  
-}
-.recommendedVideoDiv{
-  margin-top: 20px;
-}
-.recommendedVideoDiv .smallIcon{
-
-  font-size: 9px;
-}
-.recommendedVideoDiv a{
-  font-size: 12px;
-  font-weight: 600;
-}
-.insideCardP{
-  font-size: 14pt;
-  font-weight: 600;
-  color: #323232;
-}
-.maxVidSizeP{
-
-  width: 68%;
-  margin: 0 auto;
-  font-size: 14px;
-  text-align: center;
-  color: #323232;
-}
-.insideCardP{
-  width: 60%;
-  margin: 0 auto; 
-  padding:30px 0;
-  font-size: 16px;
-}
-.dDrive{
-  height: 116px;
-  width: 116px;
-  background-color: #0062ff;
-  padding: 20px 10px;
-  border-radius: 5px;
-  padding-bottom:0px;
-}
-.dDrive i{
-  font-size: 25px;
-  color: #FFF;
-  padding-bottom: 12px;
-}
-.dDrive p{
-  font-weight: 600;
-  color: #FFF;
-  padding-top: 13px;
-  font-size: 13px;
-}
-.gDrive{
-  height: 116px;
-  width: 116px;
-  background-color: #dddddd;
-  padding: 20px 10px;
-  border-radius: 5px;
-  padding-bottom:0px;
-}
-.gDrive i{
-  font-size: 25px;
-  color: #FFF;
-}
-.gDrive p{
-  font-weight: 700;
-  color: #323232;
-  padding-top: 5px;
-  font-size: 13px;
-}
-.oDrive{
-  height: 116px;
-  width: 116px;
-  background-color: #0947ad;
-  padding: 20px 10px;
-  border-radius: 5px;
-  padding-bottom:0px;
-}
-.oDrive i{
-  font-size: 25px;
-  color: #FFF;
-}
-.oDrive p{
-  font-weight: 700;
-  color: #fff;
-  padding-top: 5px;
-  font-size: 13px;
-}
-.disconectBtn i{
-  position: relative;
-  top: -1px;
-}
-.newStreamCard{
-  width: 510px;
-  margin:0 auto;
-  height: 315px;
-  margin-top: 15px;
-  border: 1px dashed;
-  border-radius:15px;
-  margin-top: 60px;
-}
-@media only screen and (max-width: 600px) {
-
-  .newStreamCard{
-    width: auto;
-    margin:0 auto;
-    height: auto;
-    margin-top: 15px;
-    border: 1px dashed;
-    border-radius:15px;
-  }
-  .mainnewstream{
-    height: 100% !important;
-  }
-  .max1Wrap {
-    border: 1px solid #ddd;
-    padding: 18px 10px;
-    background: #f4f4f4;
-    border-radius: 4px;
-    width: auto !important;
-    margin: 0 auto;
-  }
-} 
-
-.uploadIconDiv {
-  padding: 0 20px;
-}
-.mainnewstream{
-  height: 480px;
-}
-
-.max1Wrap{
-  border: 1px solid #ddd;
-  padding: 18px 10px;
-  background: #f4f4f4;
-  border-radius: 4px;
-  width: 300px;
-  margin: 0 auto;
-}
-.max1Gb {
-  font-size: 12px;
-  color: #323232;
-  font-weight: 600;
-  padding-left: 30px;
-  .date-picker {}
-
 /* ******================
  Custom Css By Abdullah
 
@@ -13629,12 +13423,6 @@ New Stream Css
   font-weight: 600;
 }
 
-.insideCardP {
-  font-size: 14pt;
-  font-weight: 600;
-  color: #323232;
-}
-
 .maxVidSizeP {
   width: 46%;
   margin: 0 auto;
@@ -13642,55 +13430,856 @@ New Stream Css
   text-align: center;
   color: #323232;
 }
+.upload-red-icon{
+  background-position: -12px -13px !important;
+  width: 61px  !important;
+  height: 56px  !important;
+  position: relative;
+  top: 104px;
+  right: 147px;
+}
+.maxText{
+  padding: 0px 0 !important;
+  position: relative;
+  top: -30px;
+}
+.upgrade-success-btn{
 
-.forUnlimit {
-  width: 50%;
-  margin: 0 auto;
+  font-size: 12px;
+  height: 42px;
+  border: 1px solid #FFF;
+}
+.captionDiv .caption p{
+
+ margin-top: 15px;
+}
+.captionChildDiv{
+ margin-top: 5%;
+}
+.captionChildDiv .smallIcon{
+  font-size: 7px;
+}
+.learMoreDiv{
+  margin-bottom: 50px;
+}
+.learMoreDiv a {
+  font-size: 13px;
+}
+.learMoreDiv i{
+  position: relative;
+  top: -1px;
+}
+.infoIcon{
+  font-size: 10px;
+}
+.dueBody{
+  padding: 0 50px;
+  padding-top: 30px;
+}
+.cardWrap{
+
+  padding: 20px;
+  height: 100%
+}
+.tabsUl{
+  padding-top: 25px;
+  margin:0 auto;
+  width: 97%;
+}
+.tabsUl li{
+  border-bottom: 1px solid;
+  padding-bottom:10px;
+
+}
+.tabsUl li a{
+  color: #000;
+  font-weight: 600;
+}
+.tabsUl .nav-item.active{
+  border-bottom: 3px solid #252525;
+
+}
+.tabsUl .nav-item.active a{
+  color: #dc143c;
+  
+}
+.recommendedVideoDiv{
+  margin-top: 20px;
+}
+.recommendedVideoDiv .smallIcon{
+
+  font-size: 9px;
+}
+.recommendedVideoDiv a{
+  font-size: 12px;
+  font-weight: 600;
 }
 
-.dDrive {
-  height: 100%;
-  width: 55%;
+.maxVidSizeP{
+
+  width: 68%;
+  margin: 0 auto;
+  font-size: 14px;
+  text-align: center;
+  color: #858799 !important;
+}
+.insideCardP{
+  width: 60%;
+  margin: 0 auto; 
+  padding:30px 0;
+  font-size: 16px;
+}
+.dDrive{
+  height: 116px;
+  width: 116px;
   background-color: #0062ff;
   padding: 20px 10px;
   border-radius: 5px;
-  padding-bottom: 0px;
+  padding-bottom:0px;
 }
-
-.dDrive i {
+.dDrive i{
   font-size: 25px;
   color: #FFF;
   padding-bottom: 12px;
 }
-
-.dDrive p {
+.dDrive p{
   font-weight: 600;
   color: #FFF;
   padding-top: 13px;
   font-size: 13px;
+  position: relative;
+  top: -9px;
 }
-
-.gDrive {
-  height: 100%;
-  width: 55%;
+.gDrive{
+  height: 116px;
+  width: 116px;
   background-color: #dddddd;
   padding: 20px 10px;
   border-radius: 5px;
-  padding-bottom: 0px;
+  padding-bottom:0px;
 }
-
-.gDrive i {
+.gDrive i{
   font-size: 25px;
   color: #FFF;
 }
-
-.gDrive p {
+.gDrive p{
+    font-weight: 700;
+    color: #323232;
+     padding-top: 5px; 
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+}
+.oDrive{
+  height: 116px;
+  width: 116px;
+  background-color: #0947ad;
+  padding: 20px 10px;
+  border-radius: 5px;
+  padding-bottom:0px;
+}
+.oDrive i{
+  font-size: 25px;
+  color: #FFF;
+}
+.oDrive p{
   font-weight: 700;
-  color: #323232;
+  color: #fff;
   padding-top: 5px;
   font-size: 13px;
+}
+.disconectBtn i{
+  position: relative;
+  top: -1px;
+}
+.newStreamCard{
+  width: 510px;
+  margin:0 auto;
+  height: 315px;
+  margin-top: 15px;
+  border: 1px dashed;
+  border-radius:15px;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 600px) {
+
+  .newStreamCard{
+    width: auto;
+    margin:0 auto;
+    height: auto;
+    margin-top: 15px;
+    border: 1px dashed;
+    border-radius:15px;
+  }
+  .mainnewstream{
+    height: 100% !important;
+  }
+  .max1Gb {
+    font-size: 12px;
+
+  }
+  .max1Wrap {
+    border: 1px solid #ddd;
+    padding: 18px 10px;
+    background: #f4f4f4;
+    border-radius: 4px;
+    width: auto !important;
+    margin: 0 auto;
+  }
+  .upload-red-icon {
+    background-position: -12px -13px !important;
+    width: 61px !important;
+    height: 56px !important;
+    position: relative;
+    top: 128px;
+    right: 105px;
+  }
+} 
+
+.uploadIconDiv {
+  padding: 0 20px;
+}
+.mainnewstream{
+  height: 480px;
+}
+
+.max1Wrap{
+
+  border: 1px solid #ddd;
+  padding: 27px 10px;
+  background: #f4f4f4;
+  border-radius: 7px;
+  width: 300px;
+  margin: 0 auto;
+  height: 80px;
+}
+.max1Gb {
+  font-size: 13px;
+  color: #323232;
+  font-weight: 600;
+}
+.forUnlimit{
+  color: #323232;
+  font-weight: 600;
+}
+.new-drive-icon{
+    background-position: -186px -13px !important;
+    width: 62px  !important;
+    height: 53px  !important;
+    position: relative;
+    top: -10px;
+}
+.new-drop-icon{
+  background-position: -100px -13px !important;
+    width: 62px !important;
+    height: 57px !important;
+    position: relative;
+    top: -6px;
+}
+.new-cloud-icon{
+  background-position: -270px -16px !important;
+    width: 68px !important;
+    height: 52px !important;
+    position: relative;
+    top: -10px;
+}
+/*======================
+ Styling for Schedule details page
+ ======================*/
+ .greyBg {
+
+  background-color: #f7f7f7;
+  padding: 40px 60px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 40px;
 
 }
-#sidebar{
-  visibility: hidden;
+label.videoInfo-label {
+  font-size: 13px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.responsibleContentP {
+  font-size: 14px;
+  font-weight: 500;
+}
+.select2-container--default .select2-selection--multiple {
+  border: 1px solid #ccc !important;
+}
+.pull-right{
+  float: right;
+}
+.counterWrap{
+  font-size: 11px;
+  padding-right: 10px;
+  color: #b5b4b4;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #979797 !important;
+  border: 1px solid #979797 !important;
+  padding: 7px 5px  !important;
+  font-size: 10px  !important;
+  color: #fff  !important;
+}
+.select2-selection__choice__remove{
+
+  color: #fff !important;
+  float: right !important;
+  padding-left: 5px;
+}
+#title:focus, #title1:focus, 
+#timezone:focus, #dtime:focus, 
+#event:focus, #privacy:focus{
+
+  color: #6e707e;
+  background-color: #fff;
+  border-color: none !important;
+  outline: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow:none !important;
+}
+.mainTitle{
+  width: 70%;
+  margin:0 auto;
+}
+.mainTitle label{
+  font-weight: 600;
+  color: #323232;
+  width: 100%;
+}
+.dAndt{
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.dAndt p{
+  line-height: 1;
+}
+.whiteBg{
+  background: #fff;
+}
+.whiteBgDiv{
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.advanceLbl {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.advanceLbl label {
+  font-weight: 600;
+  color: #323232;
+  font-size: 15px;
+}
+.stramCheckbox{
+  border-bottom: 1px solid #ddd;
+}
+.eventWrap{
+  margin-bottom:30px;
+}
+.pt-top{
+  padding-top: 5px;
+}
+.stramCheckbox label {
+  font-size: 13px;
+  font-weight: 600;
+}
+.sameboxWrap{
+  width: 80%;
+}
+.ch-lbl{
+  font-size: 11px;
+}
+.c-boxWrap input {
+  position: relative;
+  top: 3px;
+}
+.ch-Wrap{
+  margin-bottom: 30px;
+}
+.btnWrap{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.btn-dark-black{
+  color: #fff;
+  /*background-color: #e02d1b;*/
+  border-color: #323232; 
+  background: #323232 !important;
+  font-size: 12px;
+  height: 42px;
+  border: 1px solid #FFF;
+}
+.btn-dark-black:hover{
+  color: #fff;
+  /*background-color: #e02d1b;*/
+  border-color: #323232; 
+  background: #323232 !important;
+}
+.upBtn{
+  height: 33px;
+  width: 95px;
+}
+.file-upload {
+  display: none;
+}
+.square {
+  /*border-radius: 1000px !important;*/
+  overflow: hidden;
+  width: 260px;
+  height: 120px;
+  border: 1px solid #ddd;
+  background-color: #a8a4a4;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.p-image {
+  position: absolute;
+  top: 167px;
+  right: 30px;
+  color: #666666;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+  font-size: 1.2em;
+}
+
+.upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+.changeText p {
+  font-size: 12px;
+  color: #fff;
+  padding-top: 1px;
+  line-height: 30px;
+
+}
+.changeText {
+  border: 1px solid;
+  width: 260px;
+  margin: 0 auto;
+  background: #999;
+  height: 35px;
+  cursor: pointer;
+}
+.img-wrap{
+  margin-bottom: 20px;
+}
+.thumb-Wrap{
+  margin-bottom: 40px;
+  margin-top: 30px;
+
+}
+.dp-pic {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+}
+.circle {
+  border-radius: 1000px !important;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+  margin-bottom: -20px;
+}
+.c-image {
+
+  color: #666666;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.fb-icon{
+        left: 80px;
+    position: relative;
+    top: -30px;
+    font-size: 25px;
+    color: #4267b2;
+
+}
+.background-icons {
+  background-image: url(../img/Sprite2.png);
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 0px -10px;
+}
+.event-info-icon{
+ background-position: -301px -94px;
+ left: 290px;
+ position: relative;
+ top: 7px;
+}
+.privacy-info-icon{
+  background-position: -301px -94px;
+  left: 365px;
+  position: relative;
+  top: 7px;
+}
+.delete-info-icon {
+  background-position: -301px 49px;
+  top: 5px;
+  position: relative;
+  left: 77px;
+}
+.dvr-info-icon {
+  background-position: -301px 49px;
+  top: 5px;
+  position: relative;
+  left: 35px;
+}
+.degree-info-icon {
+  background-position: -301px 49px;
+  top: 5px;
+  position: relative;
+  left: 70px;
+}
+.event-bell-icon{
+  background-position: -348px -92px;
+  position: relative;
+  left: 6px;
+  top: 3px;
+  width: 21px
+}
+.privacy-lock-icon{
+  background-position: -332px -92px;
+  position: relative;
+  left: 6px;
+  top: 3px;
+  width: 15px;
+}
+span.select2.select2-container.select2-container--default{
+  width: 100% !important;
+}
+.background-icons-2 {
+  background-image: url(../img/Sprite-3.png);
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 0px -10px;
+}
+.detail-smile-icon{
+  background-position: -101px -131px !important;
+  width: 20px  !important;
+  height: 30px  !important;
+  position: relative;
+  left: 35px;
+  top: 28px;
+}
+.detail-datetime-icon {
+  background-position: -29px -131px !important;
+  width: 20px !important;
+  height: 31px !important;
+  position: relative;
+  left: 11px;
+  top: 7px;
+}
+.detail-zone-icon {
+  background-position: -52px -131px !important;
+  width: 20px !important;
+  height: 31px !important;
+  position: relative;
+  left: 11px;
+  top: 7px;
+}
+.tag-appear-text{
+  color: #b5b4b4;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+  top: 1px;
+  left: -13px;
+}
+.detail-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+}
+.detail-tick-icon{
+    background-position: 149px -92px  !important;
+    position: relative;
+    left: 20px;
+    top: -8px;
+    width: 22px !important;
+    height: 31px  !important;
+    }
+/*==================
+Styling for Schedule Setting page
+====================*/
+.social-h4{
+
+ font-weight: 900;
+ font-size: 15px;
+ color: #323232;
+}
+.setting-circle {
+  border-radius: 1000px !important;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  margin-bottom: -20px;
+  float: left;
+  margin-right: 20px;
+  padding: 5px;
+}
+.setting-row{
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.team-div span{
+  font-size: 15px;
+  font-weight: bold;
+}
+.team-div p{
+  font-size: 13px;
+}
+.team-div{
+  margin-top: 3px;
+}
+.social-account-div{
+  margin-bottom: 60px;
+}
+
+.dis-h4 h4{
+  font-size: 16px;
+  color: #323232;
+}
+.dis-h4 p{
+  font-size: 14px;
+}
+.dis-h4{
+  margin-bottom: 20px;
+}
+.setting-dis-wrap{
+  padding: 25px 30px;
+}
+.long-dis-btn{
+  height: 35px;
+}
+.content-grp-btn button{
+  width: 160px;
+  height: 35px;
+  font-size: 11px;
+  background-color: #323232;
+}
+.trash-div{
+  background: #dc142c;
+  width: 33px;
+  height: 33px;
+  margin-left: 4px;
+  border: 1px solid #DDD;
+  border-radius: 2px;
+}
+.trash-div i{
+  padding-top: 9px;
+  color: #fff;
+  font-size: 18px;
+}
+.setting-user-icon{
+  font-size: 39px;
+  color: #cce1f2;
+}
+/*========================
+Styling for Schedule list page 
+============================*/
+ul.info-ul li {
+  padding-bottom: 40px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+.fb-Color{
+  color: #4267b2;
+}
+.prep-btn-wrap{
+
+  margin-bottom: 25px;
+  padding-left: 25px;
+}
+.btn-green{
+  color: #fff;
+  /*background-color: #e02d1b;*/
+  border-color: #89bc00; 
+  background: #89bc00 !important;
+  font-size: 15px;
+  height: 38px;
+  border: 1px solid #FFF;
+}
+.btn-green:hover{
+  color: #fff;
+  /*background-color: #e02d1b;*/
+  border-color: #89bc00; 
+  background: #89bc00 !important;
+}
+.prep-btn-wrap p{
+ font-weight: 600;
+}
+.list-trash-div{
+  background: #dc142c;
+  width: 40px;
+  height: 40px;
+  margin-left: 4px;
+  border: 1px solid #DDD;
+  border-radius: 2px;
+}
+.list-trash-div i{
+  padding-top: 12px;
+  color: #fff;
+  font-size: 18px;
+}
+.edit-delete-div{
+  margin-top: 140px;
+}
+.edit-div{
+  background: #ddd;
+  width: 40px;
+  height: 40px;
+  margin-left: 4px;
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.edit-div i{
+ padding-top: 8px;
+ font-size: 21px;
+ padding-left: 4px;
+ color: #858796;
+}
+.dt-padding-left{
+  padding-left: 24px;
+}
+.list-dattime-icon{
+  left: 59px !important;
+  top: -10px !important;
+}
+.detail-square {
+  /*border-radius: 1000px !important;*/
+  overflow: hidden;
+  width: 305px;
+  height: 165px;
+  border: 1px solid #e4e0e0;
+  background-color: #e7e5e5;
+}
+.detail-counter{
+
+  border: 1px solid #e4e0e0;
+  width: 305px;
+  margin: 0 auto;
+  height: 55px;
+  text-align: center;
+
+}
+.detail-counter li {
+  display: inline-block;
+  list-style-type: none;
+  text-transform: uppercase;
+  border: 1px solid #ddd;
+  background-color: #e7e5e5;
+  width: 35px;
+  height: 40px;
+  font-size: 10px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.detail-counter li span {
+  display: block;
+  text-align: center;
+  padding-top: 4px;
+}
+.detail-counter-ul{
+  padding-top: 7px;
+  padding-left: 1px;
+}
+.detail-counter-clock-icon{
+  position: relative;
+  top: -4px;
+  right: 9px;
+  font-size: 19px;
+}
+.list-stream-heading{
+  margin-bottom: 55px;
+}
+.list-fbthumb-icon{
+  float: right;
+    position: relative;
+    right: 54px;
+    font-size: 41px;
+    color: #4267b2;
+    top: -16px;
+}
+/*@media (min-width: 767.98px)  {
+
+ .edit-delete-div {
+     margin-top: 0px; 
+}
+} */
+
+/*==================
+Styling for Select Team page
+====================*/
+.account-one, .account-two{
+
+  width: 50%;
+  height: 50%;
+  border:1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  margin:0 auto;
+}
+.green-tick-icon{
+  background-position: -219px 50px !important;
+  position: relative;
+  top: -35px;
+  left: 107px;
+  width: 28px !important;
+  height: 32px !important;
+}
+.single-user-icon{
+
+  background-position: 221px 50px !important;
+  width: 28px !important;
+  height: 31px !important;
+  position: relative;
+  top: -2px;
+  left: 2px;
+}
+.multi-user-icon{
+
+  background-position: 187px 50px !important;
+  width: 28px !important;
+  height: 31px !important;
+  position: relative;
+  top: -2px;
+  left: 7px;
+}
+.multi-user-card{
+  background-color: #f7f7f7;
+}
+/*===========
+All Pages Styling
+===========*/
+.authorize-fb-icon{
+  width: 35px !important;
+  height: 41px !important;
+  background-position: -21px -86px !important;
+  position: relative;
+  top: 8px;
+}
+.channel-youtube-icon{
+  width: 36px !important;
+  height: 42px !important;
+  background-position: -70px -86px !important;
+  position: relative;
+  top: 8px
 }

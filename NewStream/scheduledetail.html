@@ -18,10 +18,9 @@
   <!-- Custom styles for this template-->
 
   <link href="../css/custom.css" rel="stylesheet">
-  <link href="../css/dropify.css" rel="stylesheet">
+  <link href="../css/select2.css" rel="stylesheet">
 
 </head>
-
 <body id="page-top">
 
   <!-- Page Wrapper -->
@@ -367,19 +366,199 @@
               </li>
             </ul>
           </div>
-
         </div>
         <div class="card-body "><!-- dueBody -->
-          <div class="text-center ">
+          <div class="">
+            <div class="text-center thumb-Wrap">
+              <div class="img-wrap">
+                <div class="square upload-button mx-auto">
+                 <!-- User Profile Image -->
+                 <img class="profile-pic" src="">
+                 <!-- Default Image -->
+               </div>
+               <div class="changeText upload-button">
+                 <p >Change Thumbnail</p>
+               </div>
 
+               <div class="p-image">
+                <input class="file-upload" type="file" accept="image/*"/>
+              </div>
+            </div>
+            <p>Only first 60 min will be streamed with standard plan &nbsp;&nbsp;<a href="" class="btn btn-danger upgrade-btn  upBtn">Upgrade</a></p>
           </div>
+          <form>
+            <div class="mainTitle"><label >ADD VIDEO INFORMATION</label></div>
+            <div class="container greyBg">
+              <div class="form-group">
+                <span class="pull-right counterWrap"><span id="totalChars">0</span>/<span>100</span></span>
+                <label for="title" class="videoInfo-label">Title</label>
+                <span class="background-icons-2 pull-right detail-smile-icon"></span>
+                <input type="text" class="form-control" id="title"  maxlength="100" placeholder="">
+                
+              </div>
+              <div class="form-group">
+                <span class="pull-right counterWrap"><span id="totalCharstext">0</span>/<span >100</span></span>
+                <label for="title1" class="videoInfo-label">Title</label>
+                <span class="background-icons-2 pull-right detail-smile-icon"></span>
+                <textarea class="form-control" id="title1" placeholder="" maxlength="100"></textarea>
+                
+              </div>
+              <div class="form-group">
+                <label for="tags" class="videoInfo-label">Tags</label>
+                <i for="title1" class="pull-right tag-appear-text">How will tags appear?</i>
+                <select class="form-control" name="" id="tags"  multiple="multiple">
+                  <option value="" disabled="">Select One</option>
+                  <option value="tag1" >Tag One</option>
+                  <option value="tag2" >Tag Two</option>
+                  <option value="tag3" >Tag Three</option>
+                  <option value="tag4" >Tag Four</option>
+                </select>
+              </div>
+              <div>
+                <p class="responsibleContentP">You are responsible for the content you stream. Always follow <span class="text-red-date">Facebook,YouTube,Priscope</span> and every streaming platform's community guidelines when streaming video.</p>
+              </div> 
+            </div>
+            <div class="mainTitle"><label >SCHEDULE STREAM</label>
+             <span class="dAndt"><p>Set stream date,time & time zone</p></span></div>
+             <div class="container greyBg">
+               <div class="row">
+                <div class="form-group col-lg-6">
+                  <span class="background-icons-2 detail-datetime-icon"></span>&nbsp;
+                  <label for="" class="videoInfo-label">Date & Time</label>
+                  <input type="text" class="form-control" id="dtime" placeholder="">
+                </div>
+                <div class="form-group col-lg-6">
+                  <span class="background-icons-2 detail-zone-icon"></span>&nbsp;
+                  <label for="" class="videoInfo-label">Time Zone</label>
+                  <select class="form-control" id="timezone" name="">
+                    <option value="">Select One</option>
+                    <option value="">Zone One</option>
+                    <option value="">Zone Two</option>
+                    <option value="">Zone Three</option>
+                  </select>
+                </div>
+              </div>
+              <div id="accordion" class="whiteBg whiteBgDiv">
+                <div class="advanceLbl" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true">
+                  <label>Advanced Settings (Optional)</label>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="row eventWrap">
+                    <div class="form-group col-lg-6">
+                      <span class="background-icons event-bell-icon"></span>
+                      <label for="" class="videoInfo-label">Event Notification</label>
+                      <span class="background-icons event-info-icon"></span>
+                      <select class="form-control" id="event" name="">
+                        <option value="">Select One</option>
+                        <option value="">Zone One</option>
+                        <option value="">Zone Two</option>
+                        <option value="">Zone Three</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <span class="background-icons privacy-lock-icon"></span>
+                      <label for="" class="videoInfo-label">Privacy</label>
+                      <span class="background-icons privacy-info-icon"></span>
+                      <select class="form-control" id="privacy" name="">
+                        <option value="">Select One</option>
+                        <option value="">Zone One</option>
+                        <option value="">Zone Two</option>
+                        <option value="">Zone Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row ch-Wrap">
+                    <div class="col-lg-4 form-group">
+                      <div class="c-boxWrap sameboxWrap">
+                        <div class="stramCheckbox">
+                          <label>Delete Stream / VOD</label>
+                          <span class="background-icons delete-info-icon"></span>
+                        </div>
+                        <div class="form-check pt-top">
+                          <input class="form-check-input" type="checkbox" value="" id="check-box1">
+                          <label class="form-check-label ch-lbl" for="check-box3">
+                            Remove video after stream ends
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 form-group" >
+                      <div class="c-boxWrap sameboxWrap">
+                        <div class="stramCheckbox">
+                          <label>DVR Option (YouTube only)</label>
+                          <span class="background-icons dvr-info-icon"></span>
+                        </div>
+                        <div class="form-check pt-top">
+                          <input class="form-check-input" type="checkbox" value="" id="check-box2">
+                          <label class="form-check-label ch-lbl" for="check-box2">
+                            DVR Activated
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 form-group" >
+                      <div class="c-boxWrap">
+                        <div class="stramCheckbox">
+                          <label>180° or 360° Video</label>
+                          <span class="background-icons degree-info-icon"></span>
+                        </div>
+                        <div class="form-check pt-top">
+                          <input class="form-check-input" type="checkbox" value="" id="check-box3">
+                          <label class="form-check-label ch-lbl" for="check-box3">
+                            This live Stream is 180° or 360°
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mainTitle"><label >CHOOSE SOCIAL ACCOUNTS</label>
+              <span class="dAndt"><p>Multiple social accounts can be selected. Select at least one social account to schedule</p></span></div>
+              <div class="container greyBg">
+                <div class="row">
+                  
+                <a href="#">
+               <div class="circle">
+                 <!-- User Profile Image -->
+                 <img class="detail-pic" src="../img/21.png">
+                 <i class="fab fa-facebook-square fb-icon"></i>
+               </div>
+               </a>
+               <span class="background-icons detail-tick-icon"></span>
+               <a href="#">
+               <div class="circle">
+                 <!-- User Profile Image -->
+                 <img class="detail-pic" src="../img/21.png">
+                 <i class="fab fa-facebook-square fb-icon"></i>
+               </div>
+               </a>
+               
+               <span class="background-icons  detail-tick-icon"></span>
+               <a href="#">
+               <div class="circle">
+                 <!-- User Profile Image -->
+                 <img class="detail-pic" src="../img/21.png">
+                 <i class="fab fa-facebook-square fb-icon"></i>
+               </div>
+               </a>
+             </div>
+             </div>
+             <div class="container btnWrap">
+              <button class="btn btn-dark-black">DISCARD</button>
+              <button class="btn btn-danger upgrade-btn disconectBtn">SCHEDULE STREAM</button>
+
+            </div>
+          </form>
         </div>
       </div>
     </div>
-
-
-
   </div>
+
+
+
+</div>
 </div>
 <!-- /.container-fluid -->
 
@@ -436,13 +615,57 @@
 <!-- Page level custom scripts -->
 <!-- <script src="../js/demo/chart-area-demo.js"></script> -->
 <!-- <script src="../js/demo/chart-pie-demo.js"></script> -->
-<script src="../vendor/dropify.js"></script>
+<script src="../vendor/select2.js"></script>
 
 </body>
 <script type="text/javascript">
   $(document).ready(function(){
 
+   $('#tags').select2();
 
+   $('#title').on("keyup",function(){
+
+    var vale = $('#title').val();
+    if (vale.length == 0) {
+      $('#totalChars').text(0);
+      return;
+    }
+    var totalChars = vale.length;
+    $('#totalChars').html(totalChars);
+
+  })
+   $('#title1').on("keyup",function(){
+
+    var vale = $('#title1').val();
+    if (vale.length == 0) {
+      $('#totalCharstext').text(0);
+      return;
+    }
+    var totalChars = vale.length;
+    $('#totalCharstext').html(totalChars);
+
+  })
+
+   var readURL = function(input) {
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+        $('.profile-pic').attr('src', e.target.result);
+      }
+
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
+
+
+  $(".file-upload").on('change', function(){
+    readURL(this);
+  });
+
+  $(".upload-button").on('click', function() {
+   $(".file-upload").click();
+ });
     // debugger
   })
 </script>
