@@ -14277,6 +14277,34 @@ Styling for Select Team page
 }
 .multi-user-card{
   background-color: #f7f7f7;
+  margin:0 auto;
+  width: 35%;
+  height: 60%;
+}
+.single-user-card{
+    float: left;
+    margin: 0 auto;
+    width: 35%;
+  height: 60%;
+}
+.s-m-text{
+      color: #323232;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.blue-icon{
+  color: black;
+    font-size: 20px;
+    
+}
+.single-user-anchor, .multi-user-anchor{
+
+  text-decoration: none !important;
+}
+.users-card-wrap{
+  position: relative;
+  top: -11px;
 }
 /*===========
 All Pages Styling
