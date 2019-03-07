@@ -3629,6 +3629,7 @@ input[type="button"].btn-block {
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+  position: relative;
 }
 
 .dropdown-item:first-child {
@@ -3645,7 +3646,17 @@ input[type="button"].btn-block {
   color: #2e2f37;
   text-decoration: none;
   background-color: #EDEDED;
-  border-left: 3px solid #373A3C;
+}
+
+.dropdown-item:hover::before {
+    content: "";
+    width: 3px;
+    height: 100%;
+    display: block;
+    background-color: #2e2f37;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 /*.dropdown-item:first-child:hover {
@@ -12764,8 +12775,8 @@ input[type="button"].btn-block {
 
   }
   .image_inner_container img {
-    height: 35px;
-    width: 35px;
+    height: auto;
+    width: 40px;
     border-radius: 50%;
     /* border: 3px solid white; */
   }
@@ -12800,8 +12811,8 @@ input[type="button"].btn-block {
       }
 
       .image_inner_container img {
-        height: 35px;
-        width: 35px;
+        height: auto;
+        width: 40px;
         border-radius: 50%;
         /* border: 3px solid white; */
       }
@@ -14093,7 +14104,7 @@ Styling for Schedule Setting page
   background-color: #323232;
 }
 /*.content-grp-btn .dropdown-item:hover, .dropdown-item:focus{
-  background-color: 
+  background-color:
   }*/
   .content-grp-btn button:hover{
 
