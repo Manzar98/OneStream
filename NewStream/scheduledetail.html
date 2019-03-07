@@ -329,8 +329,8 @@
 
   </ul>
 
-  </nav>
-  <!-- End of Topbar -->
+</nav>
+<!-- End of Topbar -->
 <!-- End of Topbar -->
 
 <!-- Begin Page Content -->
@@ -357,206 +357,334 @@
         <div class=" py-3 ">
           <div class="cardWrap">
             <ul class="nav nav-pills nav-fill tabsUl">
-              <li class="nav-item active">
-                <a class="nav-link " href="#"><i class="far fa-play-circle"></i>&nbsp;&nbsp;STREAM</a>
+              <li class="nav-item cus-li">
+                <a class="custom-link-1 nav-link  active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="far fa-play-circle"></i>&nbsp;&nbsp;STREAM</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="far fa-clock"></i>&nbsp;&nbsp;SCHEDULED STREAMS</a>
+                <a class="custom-link-2 nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="far fa-clock"></i>&nbsp;&nbsp;SCHEDULED STREAMS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-cog"></i>&nbsp;&nbsp;SETTINGS</a>
+                <a class="custom-link-3 nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fas fa-cog"></i>&nbsp;&nbsp;SETTINGS</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="card-body "><!-- dueBody -->
-          <div class="">
-            <div class="text-center thumb-Wrap">
-              <div class="img-wrap">
-                <div class="square upload-button mx-auto">
-                 <!-- User Profile Image -->
-                 <img class="profile-pic" src="">
-                 <!-- Default Image -->
-               </div>
-               <div class="changeText upload-button">
-                 <p >Change Thumbnail</p>
-               </div>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="text-center thumb-Wrap">
+                <div class="img-wrap">
+                  <div class="square upload-button mx-auto">
+                   <!-- User Profile Image -->
+                   <img class="profile-pic" src="">
+                   <!-- Default Image -->
+                 </div>
+                 <div class="changeText upload-button">
+                   <p >Change Thumbnail</p>
+                 </div>
 
-               <div class="p-image">
-                <input class="file-upload" type="file" accept="image/*"/>
-              </div>
-            </div>
-            <p>Only first 60 min will be streamed with standard plan &nbsp;&nbsp;<a href="" class="btn btn-danger upgrade-btn  upBtn">Upgrade</a></p>
-          </div>
-          <form>
-            <div class="mainTitle"><label >ADD VIDEO INFORMATION</label></div>
-            <div class="container greyBg">
-              <div class="form-group">
-                <span class="pull-right counterWrap"><span id="totalChars">0</span>/<span>100</span></span>
-                <label for="title" class="videoInfo-label">Title</label>
-                <span class="background-icons-2 pull-right detail-smile-icon"></span>
-                <input type="text" class="form-control" id="title"  maxlength="100" placeholder="">
-
-              </div>
-              <div class="form-group">
-                <span class="pull-right counterWrap"><span id="totalCharstext">0</span>/<span >100</span></span>
-                <label for="title1" class="videoInfo-label">Title</label>
-                <span class="background-icons-2 pull-right detail-smile-icon"></span>
-                <textarea class="form-control" id="title1" placeholder="" maxlength="100"></textarea>
-
-              </div>
-              <div class="form-group">
-                <label for="tags" class="videoInfo-label">Tags</label>
-                <i for="title1" class="pull-right tag-appear-text">How will tags appear?</i>
-                <select class="form-control" name="" id="tags"  multiple="multiple">
-                  <option value="" disabled="">Select One</option>
-                  <option value="tag1" >Tag One</option>
-                  <option value="tag2" >Tag Two</option>
-                  <option value="tag3" >Tag Three</option>
-                  <option value="tag4" >Tag Four</option>
-                </select>
-              </div>
-              <div>
-                <p class="responsibleContentP">You are responsible for the content you stream. Always follow <span class="text-red-date">Facebook,YouTube,Priscope</span> and every streaming platform's community guidelines when streaming video.</p>
-              </div>
-            </div>
-            <div class="mainTitle"><label >SCHEDULE STREAM</label>
-             <span class="dAndt"><p>Set stream date,time & time zone</p></span></div>
-             <div class="container greyBg">
-               <div class="row">
-                <div class="form-group col-lg-6">
-                  <span class="background-icons-2 detail-datetime-icon"></span>&nbsp;
-                  <label for="" class="videoInfo-label">Date & Time</label>
-                  <input type="text" class="form-control" id="dtime" placeholder="">
+                 <div class="p-image">
+                  <input class="file-upload" type="file" accept="image/*"/>
                 </div>
-                <div class="form-group col-lg-6">
-                  <span class="background-icons-2 detail-zone-icon"></span>&nbsp;
-                  <label for="" class="videoInfo-label">Time Zone</label>
-                  <select class="form-control" id="timezone" name="">
-                    <option value="">Select One</option>
-                    <option value="">Zone One</option>
-                    <option value="">Zone Two</option>
-                    <option value="">Zone Three</option>
+              </div>
+              <p>Only first 60 min will be streamed with standard plan &nbsp;&nbsp;<a href="" class="btn btn-danger upgrade-btn  upBtn">Upgrade</a></p>
+            </div>
+            <form>
+              <div class="mainTitle"><label >ADD VIDEO INFORMATION</label></div>
+              <div class="container greyBg">
+                <div class="form-group">
+                  <span class="pull-right counterWrap"><span id="totalChars">0</span>/<span>100</span></span>
+                  <label for="title" class="videoInfo-label">Title</label>
+                  <span class="background-icons-2 pull-right detail-smile-icon"></span>
+                  <input type="text" class="form-control" id="title"  maxlength="100" placeholder="">
+
+                </div>
+                <div class="form-group">
+                  <span class="pull-right counterWrap"><span id="totalCharstext">0</span>/<span >100</span></span>
+                  <label for="title1" class="videoInfo-label">Title</label>
+                  <span class="background-icons-2 pull-right detail-smile-icon"></span>
+                  <textarea class="form-control" id="title1" placeholder="" maxlength="100"></textarea>
+
+                </div>
+                <div class="form-group">
+                  <label for="tags" class="videoInfo-label">Tags</label>
+                  <i for="title1" class="pull-right tag-appear-text">How will tags appear?</i>
+                  <select class="form-control" name="" id="tags"  multiple="multiple">
+                    <option value="" disabled="">Select One</option>
+                    <option value="tag1" >Tag One</option>
+                    <option value="tag2" >Tag Two</option>
+                    <option value="tag3" >Tag Three</option>
+                    <option value="tag4" >Tag Four</option>
                   </select>
                 </div>
-              </div>
-              <div id="accordion" class="whiteBg whiteBgDiv">
-                <div class="advanceLbl" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true">
-                  <label class="change-icon-right">Advanced Settings (Optional)</label>
+                <div>
+                  <p class="responsibleContentP">You are responsible for the content you stream. Always follow <span class="text-red-date">Facebook,YouTube,Priscope</span> and every streaming platform's community guidelines when streaming video.</p>
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                  <div class="row eventWrap">
-                    <div class="form-group col-lg-6">
-                      <span class="background-icons event-bell-icon"></span>
-                      <label for="" class="videoInfo-label">Event Notification</label>
-                      <span class="background-icons event-info-icon"></span>
-                      <select class="form-control" id="event" name="">
-                        <option value="">Select One</option>
-                        <option value="">Zone One</option>
-                        <option value="">Zone Two</option>
-                        <option value="">Zone Three</option>
-                      </select>
+              </div>
+              <div class="mainTitle"><label >SCHEDULE STREAM</label>
+               <span class="dAndt"><p>Set stream date,time & time zone</p></span></div>
+               <div class="container greyBg">
+                 <div class="row">
+                  <div class="form-group col-lg-6">
+                    <span class="background-icons-2 detail-datetime-icon"></span>&nbsp;
+                    <label for="" class="videoInfo-label">Date & Time</label>
+                    <input type="text" class="form-control" id="dtime" placeholder="">
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <span class="background-icons-2 detail-zone-icon"></span>&nbsp;
+                    <label for="" class="videoInfo-label">Time Zone</label>
+                    <select class="form-control" id="timezone" name="">
+                      <option value="">Select One</option>
+                      <option value="">Zone One</option>
+                      <option value="">Zone Two</option>
+                      <option value="">Zone Three</option>
+                    </select>
+                  </div>
+                </div>
+                <div id="accordion" class="whiteBg whiteBgDiv">
+                  <div class="advanceLbl" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true">
+                    <label class="change-icon-right">Advanced Settings (Optional)</label>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="row eventWrap">
+                      <div class="form-group col-lg-6">
+                        <span class="background-icons event-bell-icon"></span>
+                        <label for="" class="videoInfo-label">Event Notification</label>
+                        <span class="background-icons event-info-icon"></span>
+                        <select class="form-control" id="event" name="">
+                          <option value="">Select One</option>
+                          <option value="">Zone One</option>
+                          <option value="">Zone Two</option>
+                          <option value="">Zone Three</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-lg-6">
+                        <span class="background-icons privacy-lock-icon"></span>
+                        <label for="" class="videoInfo-label">Privacy</label>
+                        <span class="background-icons privacy-info-icon"></span>
+                        <select class="form-control" id="privacy" name="">
+                          <option value="">Select One</option>
+                          <option value="">Zone One</option>
+                          <option value="">Zone Two</option>
+                          <option value="">Zone Three</option>
+                        </select>
+                      </div>
                     </div>
-                    <div class="form-group col-lg-6">
-                      <span class="background-icons privacy-lock-icon"></span>
-                      <label for="" class="videoInfo-label">Privacy</label>
-                      <span class="background-icons privacy-info-icon"></span>
-                      <select class="form-control" id="privacy" name="">
-                        <option value="">Select One</option>
-                        <option value="">Zone One</option>
-                        <option value="">Zone Two</option>
-                        <option value="">Zone Three</option>
-                      </select>
+                    <div class="row ch-Wrap">
+                      <div class="col-lg-4 form-group">
+                        <div class="c-boxWrap sameboxWrap">
+                          <div class="stramCheckbox">
+                            <label>Delete Stream / VOD</label>
+                            <span class="background-icons delete-info-icon"></span>
+                          </div>
+                          <div class="form-check pt-top">
+                            <input class="form-check-input" type="checkbox" value="" id="check-box1">
+                            <label class="form-check-label ch-lbl" for="check-box3">
+                              Remove video after stream ends
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 form-group" >
+                        <div class="c-boxWrap sameboxWrap">
+                          <div class="stramCheckbox">
+                            <label>DVR Option (YouTube only)</label>
+                            <span class="background-icons dvr-info-icon"></span>
+                          </div>
+                          <div class="form-check pt-top">
+                            <input class="form-check-input" type="checkbox" value="" id="check-box2">
+                            <label class="form-check-label ch-lbl" for="check-box2">
+                              DVR Activated
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 form-group" >
+                        <div class="c-boxWrap">
+                          <div class="stramCheckbox">
+                            <label>180° or 360° Video</label>
+                            <span class="background-icons degree-info-icon"></span>
+                          </div>
+                          <div class="form-check pt-top">
+                            <input class="form-check-input" type="checkbox" value="" id="check-box3">
+                            <label class="form-check-label ch-lbl" for="check-box3">
+                              This live Stream is 180° or 360°
+                            </label>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="row ch-Wrap">
-                    <div class="col-lg-4 form-group">
-                      <div class="c-boxWrap sameboxWrap">
-                        <div class="stramCheckbox">
-                          <label>Delete Stream / VOD</label>
-                          <span class="background-icons delete-info-icon"></span>
-                        </div>
-                        <div class="form-check pt-top">
-                          <input class="form-check-input" type="checkbox" value="" id="check-box1">
-                          <label class="form-check-label ch-lbl" for="check-box3">
-                            Remove video after stream ends
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 form-group" >
-                      <div class="c-boxWrap sameboxWrap">
-                        <div class="stramCheckbox">
-                          <label>DVR Option (YouTube only)</label>
-                          <span class="background-icons dvr-info-icon"></span>
-                        </div>
-                        <div class="form-check pt-top">
-                          <input class="form-check-input" type="checkbox" value="" id="check-box2">
-                          <label class="form-check-label ch-lbl" for="check-box2">
-                            DVR Activated
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 form-group" >
-                      <div class="c-boxWrap">
-                        <div class="stramCheckbox">
-                          <label>180° or 360° Video</label>
-                          <span class="background-icons degree-info-icon"></span>
-                        </div>
-                        <div class="form-check pt-top">
-                          <input class="form-check-input" type="checkbox" value="" id="check-box3">
-                          <label class="form-check-label ch-lbl" for="check-box3">
-                            This live Stream is 180° or 360°
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                </div>
+              </div>
+              <div class="mainTitle"><label >CHOOSE SOCIAL ACCOUNTS</label>
+                <span class="dAndt"><p>Multiple social accounts can be selected. Select at least one social account to schedule</p></span></div>
+                <div class="container greyBg">
+                  <div class="row">
+
+                    <a href="#">
+                     <div class="circle">
+                       <!-- User Profile Image -->
+                       <img class="detail-pic" src="../img/21.png">
+                       <i class="fab fa-facebook-square fb-icon"></i>
+                     </div>
+                   </a>
+                   <span class="background-icons detail-tick-icon"></span>
+                   <a href="#">
+                     <div class="circle">
+                       <!-- User Profile Image -->
+                       <img class="detail-pic" src="../img/21.png">
+                       <i class="fab fa-facebook-square fb-icon"></i>
+                     </div>
+                   </a>
+
+                   <span class="background-icons  detail-tick-icon"></span>
+                   <a href="#">
+                     <div class="circle">
+                       <!-- User Profile Image -->
+                       <img class="detail-pic" src="../img/21.png">
+                       <i class="fab fa-facebook-square fb-icon"></i>
+                     </div>
+                   </a>
+                 </div>
+               </div>
+               <div class="container btnWrap">
+                <button class="btn btn-dark-black">DISCARD</button>
+                <button class="btn btn-danger upgrade-btn disconectBtn">SCHEDULE STREAM</button>
+
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="container-fluid">
+              <div class="list-stream-heading">
+               <h4 class="pb-2">Scheduled Streams</h4>
+               <p>List of scheduled streams on connected social accounts.</p>
+             </div>
+             <div class="row">
+
+               <div class="col-lg-4">
+                <div class="img-wrap">
+                  <div class="detail-square mx-auto">
+                   <!-- User Profile Image -->
+                   <img class="profile-pic" src="">
+                   <!-- Default Image -->
+                 </div>
+                 <div class="detail-counter">
+                   <ul class="detail-counter-ul">
+                    <i class="far fa-clock detail-counter-clock-icon"></i>
+                    <li><span id="days"></span>DAYS</li>
+                    <li><span id="hours"></span>HRS</li>
+                    <li><span id="minutes"></span>MIN</li>
+                    <li><span id="seconds"></span>SEC</li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div class="mainTitle"><label >CHOOSE SOCIAL ACCOUNTS</label>
-              <span class="dAndt"><p>Multiple social accounts can be selected. Select at least one social account to schedule</p></span></div>
-              <div class="container greyBg">
+            <div class="col-lg-6">
+              <div class="">
+                <div class="prep-btn-wrap">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <span class=" btn-green">Preparing</span>
+                </div>
                 <div class="row">
+                 <ul class="info-ul">
+                  <li>Scheduled:</li>
+                </br>
+                <li>Scheduled by:</li>
+                <li>Pages:</li>
+              </ul>
+              <span class="background-icons-2 detail-datetime-icon list-dattime-icon"></span>
+              <ul class="info-ul schedule-info-details">
 
-                <a href="#">
-               <div class="circle">
-                 <!-- User Profile Image -->
-                 <img class="detail-pic" src="../img/21.png">
-                 <i class="fab fa-facebook-square fb-icon"></i>
-               </div>
-               </a>
-               <span class="background-icons detail-tick-icon"></span>
-               <a href="#">
-               <div class="circle">
-                 <!-- User Profile Image -->
-                 <img class="detail-pic" src="../img/21.png">
-                 <i class="fab fa-facebook-square fb-icon"></i>
-               </div>
-               </a>
-
-               <span class="background-icons  detail-tick-icon"></span>
-               <a href="#">
-               <div class="circle">
-                 <!-- User Profile Image -->
-                 <img class="detail-pic" src="../img/21.png">
-                 <i class="fab fa-facebook-square fb-icon"></i>
-               </div>
-               </a>
-             </div>
-             </div>
-             <div class="container btnWrap">
-              <button class="btn btn-dark-black">DISCARD</button>
-              <button class="btn btn-danger upgrade-btn disconectBtn">SCHEDULE STREAM</button>
-
+                <li><span class="dt-padding-left">09 January 2010</span>  </br>&nbsp;<i class="far fa-clock"></i>&nbsp;&nbsp;<span>10:50 PM (Islamabad, PST)</span></li>
+                <li><i class="far fa-user"></i>&nbsp;&nbsp;Rohina Mehwish</li>
+                <li><i class="fab fa-facebook-f fb-Color" ></i>&nbsp;&nbsp;Name of Page</li>
+              </ul>
             </div>
-          </form>
+          </div>
+        </div>
+        <div class="edit-delete-div text-center">
+          <div class="edit-div"><a href=""><i class="fas fa-edit"></i></a></div>
+          <div class="list-trash-div"><a href=""><i class="far fa-trash-alt"></i></a></div>
         </div>
       </div>
     </div>
+
   </div>
+
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+    <div class="container">
+     <div class="social-account-div">
+       <h4 class="social-h4"><b>SOCIAL ACCOUNT MANAGEMENT</b></h4>
+     </div>
+     <div class="row setting-row">
+      <div class="col-lg-9">
+        <div class="setting-circle">
+         <!-- User Profile Image -->
+         <i class="fas fa-user-circle setting-user-icon"></i>
+         <!-- Default Image -->
+       </div>
+       <div class="team-div">
+         <span >Name of Team Member</span>
+         <p>abc@xyz.com</p>
+       </div>
+     </div>
+     <div class="col-lg-3 text-center">
+      <div class="btn-group content-grp-btn" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          CONTENT MANAGER
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item" href="#">Dropdown link</a>
+          <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+        <div class="trash-div"><a href=""><i class="far fa-trash-alt"></i></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="row setting-row">
+    <div class="col-lg-9">
+      <div class="setting-circle">
+       <!-- User Profile Image -->
+       <i class="fas fa-user-circle setting-user-icon"></i>
+       <!-- Default Image -->
+       <!-- <i class="fa fa-user fa-5x"></i> -->
+     </div>
+     <div class="team-div">
+       <span>Name of Team Member</span>
+       <p>abc@xyz.com</p>
+     </div>
+   </div>
+   <div class="col-lg-3 text-center">
+
+     <div class="btn-group content-grp-btn" role="group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        CONTENT MANAGER
+      </button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="#">Dropdown link</a>
+        <a class="dropdown-item" href="#">Dropdown link</a>
+      </div>
+      <div class="trash-div"><a href=""><i class="far fa-trash-alt"></i></a></div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+  <div class="container greyBg setting-dis-wrap">
+   <div class="dis-h4">
+    <h4 class="">DISCONNECT: <b>NAME OF THE ACCOUNT</b></h4>
+    <p>Disconnecting Name of the Account from OneStream, will also delete all associated scheduled streams.</p>
+  </div>
+  <button class="btn btn-danger upgrade-btn long-dis-btn">DISCONNECT</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 
@@ -669,6 +797,53 @@
    $(".file-upload").click();
  });
     // debugger
+
+    $('.custom-link-1').on('click', function(){
+        // get parent element and remove the custom-link-1
+        var ele = $('.custom-link-2').parent();
+        ele.removeClass('cus-li');
+
+        // get parent element and remove the custom-link-3
+        var ele2 = $('.custom-link-3').parent();
+        ele2.removeClass('cus-li');
+
+        // add cus-li-2 for the border
+        var current = $('.custom-link-1').parent();
+        current.addClass('cus-li');        
+
+   })
+
+       $('.custom-link-2').on('click', function(){
+        // get parent element and remove the custom-link-1
+        var ele = $('.custom-link-1').parent();
+        ele.removeClass('cus-li');
+
+        // get parent element and remove the custom-link-3
+        var ele2 = $('.custom-link-3').parent();
+        ele2.removeClass('cus-li');
+
+        // add cus-li-2 for the border
+        var current = $('.custom-link-2').parent();
+        current.addClass('cus-li');        
+
+   })
+
+          $('.custom-link-3').on('click', function(){
+        // get parent element and remove the custom-link-1
+        var ele = $('.custom-link-1').parent();
+        ele.removeClass('cus-li');
+
+        // get parent element and remove the custom-link-3
+        var ele2 = $('.custom-link-2').parent();
+        ele2.removeClass('cus-li');
+
+        // add cus-li-2 for the border
+        var current = $('.custom-link-3').parent();
+        current.addClass('cus-li');        
+
+   })
+
+    
   })
 </script>
 

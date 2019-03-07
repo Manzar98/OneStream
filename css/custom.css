@@ -13386,29 +13386,6 @@ New Stream Css
   height: 100%
 }
 
-.tabsUl {
-  padding-top: 25px;
-  margin: 0 auto;
-  width: 97%;
-}
-
-.tabsUl li {
-  border-bottom: 1px solid;
-  padding-bottom: 10px;
-}
-
-.tabsUl li a {
-  color: #000;
-  font-weight: 600;
-}
-
-.tabsUl .nav-item.active {
-  border-bottom: 3px solid #252525;
-}
-
-.tabsUl .nav-item.active a {
-  color: #dc143c;
-}
 
 .recommendedVideoDiv {
   margin-top: 20px;
@@ -13497,13 +13474,14 @@ New Stream Css
   color: #000;
   font-weight: 600;
 }
-.tabsUl .nav-item.active{
-  border-bottom: 3px solid #252525;
 
+.tabsUl .nav-link.active {
+    color: #dc143c !important;
+    background-color: inherit !important;
 }
-.tabsUl .nav-item.active a{
-  color: #dc143c;
+.cus-li{
 
+  border-bottom:3px solid #252525  !important;
 }
 .recommendedVideoDiv{
   margin-top: 20px;
