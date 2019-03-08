@@ -42,7 +42,7 @@
             <!-- Nav Item - Alerts -->
             <li class="nav-item dropdown no-arrow mx-1 schedule-stream">
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bell fa-fw"></i>
+                <span class="dash-top-icon"></span>
                 <!-- Counter - Alerts -->
                 <span class="badge badge-counter count-badge">3+</span>
                 <span class="schedule-text"> Scheduled Streams</span>
@@ -450,7 +450,7 @@
                       <div class="form-group col-lg-6">
                         <span class="background-icons event-bell-icon"></span>
                         <label for="" class="videoInfo-label">Event Notification</label>
-                        <span class="background-icons event-info-icon"></span>
+                        <span class="background-icons event-info-icon" data-toggle="tooltip" data-placement="top" title="Event Info"></span>
                         <select class="form-control" id="event" name="">
                           <option value="">Select One</option>
                           <option value="">Zone One</option>
@@ -461,7 +461,7 @@
                       <div class="form-group col-lg-6">
                         <span class="background-icons privacy-lock-icon"></span>
                         <label for="" class="videoInfo-label">Privacy</label>
-                        <span class="background-icons privacy-info-icon"></span>
+                        <span class="background-icons privacy-info-icon" data-toggle="tooltip" data-placement="top" title="Privacy Info"></span>
                         <select class="form-control" id="privacy" name="">
                           <option value="">Select One</option>
                           <option value="">Zone One</option>
@@ -475,7 +475,7 @@
                         <div class="c-boxWrap sameboxWrap">
                           <div class="stramCheckbox">
                             <label>Delete Stream / VOD</label>
-                            <span class="background-icons delete-info-icon"></span>
+                            <span class="background-icons delete-info-icon" data-toggle="tooltip" data-placement="top" title="Event Info"></span>
                           </div>
                           <div class="form-check pt-top">
                             <input class="form-check-input" type="checkbox" value="" id="check-box1">
@@ -489,7 +489,7 @@
                         <div class="c-boxWrap sameboxWrap">
                           <div class="stramCheckbox">
                             <label>DVR Option (YouTube only)</label>
-                            <span class="background-icons dvr-info-icon"></span>
+                            <span class="background-icons dvr-info-icon" data-toggle="tooltip" data-placement="top" title="Event Info"></span>
                           </div>
                           <div class="form-check pt-top">
                             <input class="form-check-input" type="checkbox" value="" id="check-box2">
@@ -499,11 +499,11 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-lg-3 form-group" >
-                        <div class="c-boxWrap">
+                      <div class="col-lg-4 form-group" >
+                        <div class="c-boxWrap sameboxWrap">
                           <div class="stramCheckbox">
                             <label>180° or 360° Video</label>
-                            <span class="background-icons degree-info-icon"></span>
+                            <span class="background-icons degree-info-icon" data-toggle="tooltip" data-placement="top" title="Event Info"></span>
                           </div>
                           <div class="form-check pt-top">
                             <input class="form-check-input" type="checkbox" value="" id="check-box3">
@@ -619,7 +619,7 @@
        <h4 class="social-h4"><b>SOCIAL ACCOUNT MANAGEMENT</b></h4>
      </div>
      <div class="row setting-row">
-      <div class="col-lg-9">
+      <div class="col-lg-9  col-sm-7 col-xs-7">
         <div class="setting-circle">
          <!-- User Profile Image -->
          <i class="fas fa-user-circle setting-user-icon"></i>
@@ -630,7 +630,7 @@
          <p>abc@xyz.com</p>
        </div>
      </div>
-     <div class="col-lg-3 text-center">
+     <div class="col-lg-3 col-sm-3 col-xs-3 text-center">
       <div class="btn-group content-grp-btn" role="group">
         <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           CONTENT MANAGER
@@ -644,7 +644,7 @@
     </div>
   </div>
   <div class="row setting-row">
-    <div class="col-lg-9">
+    <div class="col-lg-9 col-sm-7 col-xs-7">
       <div class="setting-circle">
        <!-- User Profile Image -->
        <i class="fas fa-user-circle setting-user-icon"></i>
@@ -656,7 +656,7 @@
        <p>abc@xyz.com</p>
      </div>
    </div>
-   <div class="col-lg-3 text-center">
+   <div class="col-lg-3 col-sm-3 col-xs-3 text-center">
 
      <div class="btn-group content-grp-btn" role="group">
       <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -750,6 +750,8 @@
 </body>
 <script type="text/javascript">
   $(document).ready(function(){
+
+  $('[data-toggle="tooltip"]').tooltip()
 
    $('#tags').select2();
 
