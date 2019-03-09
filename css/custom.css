@@ -13612,7 +13612,7 @@ New Stream Css
   padding: 0 20px;
 }
 .mainnewstream{
-  height: 480px;
+  min-height: 480px;
 }
 
 .max1Wrap{
@@ -13772,7 +13772,7 @@ New Stream Css
     font-size: 14px;
 }
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .newStreamCard{
     margin:0 auto;
     margin-top: 15px;
@@ -13800,8 +13800,8 @@ New Stream Css
     width: 60px !important;
     height: 56px !important;
     position: relative;
-    top: 116px;
-    right: 114px;
+    top: 98px;
+    right: 203px;
     background-size: 419%;
 }
 .dDrive p {
@@ -13891,6 +13891,18 @@ New Stream Css
     text-align: center;
     color: #858799 !important;
 }
+  .uploadIconDiv{
+    max-width: 330px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .uploadIcon{
+    padding: 0 5px;
+  }
+
 }
 /*======================
  Styling for Schedule details page
@@ -14294,7 +14306,7 @@ span.select2.select2-container.select2-container--default{
     cursor: pointer;
     float: right;
 }
-.schedule-stream{
+.schedule-stream .dash-top-icon,.schedule-stream .count-badge{
   display: none;
 }
 }
@@ -14682,4 +14694,10 @@ All Pages Styling
   background-position: -70px -86px !important;
   position: relative;
   top: 8px
+}
+.display-inline-block {
+  display: inline-block;
+}
+.auto-width{
+  width: auto;
 }
