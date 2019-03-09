@@ -3648,7 +3648,7 @@ input[type="button"].btn-block {
   background-color: #EDEDED;
 }
 
-.profile-menu .dropdown-item:hover::before {
+.dropdown-item:hover::before {
     content: "";
     width: 3px;
     height: 100%;
@@ -12841,8 +12841,9 @@ input[type="button"].btn-block {
       }
 
       .new-stream {
-        width: 65%;
+        /*width: 65%;*/
         background: white;
+        width: 986px;
       }
 
       .left-menu .new-stream {
@@ -12865,25 +12866,20 @@ input[type="button"].btn-block {
 
       .count-badge {
         background: #7460ee;
-        right: 14.2rem !important;
+        right: 14rem !important;
         margin-top: -0.75rem !important;
-        padding: 0.35rem;
-        color: #fff;
       }
 
       .schedule-stream {
-        width: 21%;
+        /*width: 20%;*/
+        width: 300px;
       }
 
-      .load-version, .load-version:hover {
+      .load-version {
         background: #92b41c;
         color: #fff;
         width: 91%;
         margin-left: 10px;
-      }
-      .profile-menu .load-version:hover::before{
-        width: 0;
-        height: 0;
       }
 
       .load-version-icon {
@@ -13360,7 +13356,7 @@ input[type="button"].btn-block {
     display: inline-block;
     width: 50px;
     height: 43px;
-    background-position: -285px -9px;
+    background-position: -273px -9px;
 }
 
 /* ***** =====================
@@ -14270,8 +14266,6 @@ span.select2.select2-container.select2-container--default{
     margin-bottom: 0;
     border-bottom: 0;
 }
-
-
 .advanceLbl.collapsed label {
     margin-bottom: 0;
 }
@@ -14306,8 +14300,28 @@ span.select2.select2-container.select2-container--default{
     cursor: pointer;
     float: right;
 }
-.schedule-stream .dash-top-icon,.schedule-stream .count-badge{
-  display: none;
+.count-badge {
+    background: #7460ee;
+    right: 154px!important;
+    margin-top: -0.75rem !important;
+}
+.dash-top-icon {
+    background-image: url(../img/Sprite3.png);
+    display: inline-block;
+    width: 50px;
+    height: 43px;
+    background-position: -284px -8px;
+}
+.sch-text{
+     font-size: 13px;
+}
+ .new-stream {
+
+       width: 50%;
+}
+.schedule-stream {
+
+    width:35%;
 }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -14340,7 +14354,90 @@ span.select2.select2-container.select2-container--default{
     cursor: pointer;
     float: right;
 }
+.count-badge {
+    background: #7460ee;
+    right: 60px!important;
+    margin-top: -0.75rem !important;
+}
+.dash-top-icon {
+    background-image: url(../img/Sprite3.png);
+    display: inline-block;
+    width: 50px;
+    height: 43px;
+    background-position: -284px -8px;
+}
+.sch-text{
+  font-size: 12px;
+  position: relative;
+  left: 10px;
+}
+.new-text{
+    font-size: 13px;
+    position: relative;
+    right: 4px;
+}
+.new-stream {
+
+    width: 32%;
+}
+.schedule-stream {
+    width: auto;
+}
   }
+  @media (min-width: 320px) and (max-width: 480px) {
+
+.count-badge {
+    background: #7460ee;
+    right: 2rem !important;
+    margin-top: -0.75rem !important;
+}
+.topbar .nav-item .nav-link {
+
+    padding: 0 0px;
+}
+.schedule-stream {
+    /* width: 20%; */
+    width: auto;
+}
+.new-text{
+    font-size: 12px;
+    position: relative;
+    right: 4px;
+}
+.plus-icon{
+      position: relative;
+    left: 2px;
+}
+.new-stream {
+
+    width: auto;
+}
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+.count-badge {
+    background: #7460ee;
+    right: 215px!important;
+    margin-top: -0.75rem !important;
+}
+.dash-top-icon {
+    background-image: url(../img/Sprite3.png);
+    display: inline-block;
+    width: 50px;
+    height: 43px;
+    background-position: -282px -9px;
+}
+.sch-text{
+  position: relative;
+    left: 14px;
+}
+.new-stream{
+  width: 60%;
+}
+.on-going-text{
+  margin-bottom: 0px !important;
+}
+}
 
 /*==================
 Styling for Schedule Setting page
