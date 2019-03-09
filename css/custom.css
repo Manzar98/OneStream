@@ -14422,6 +14422,9 @@ span.select2.select2-container.select2-container--default{
 .new-stream{
   width: 60%;
 }
+.on-going-text{
+  margin-bottom: 0px !important;
+}
 }
 
 /*==================
