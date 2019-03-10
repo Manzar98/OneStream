@@ -12866,8 +12866,10 @@ input[type="button"].btn-block {
 
       .count-badge {
         background: #7460ee;
-        right: 14rem !important;
+        /*right: 14rem !important;*/
         margin-top: -0.75rem !important;
+        right: -8px !important;
+        top: 11px;
       }
 
       .schedule-stream {
@@ -13357,6 +13359,7 @@ input[type="button"].btn-block {
     width: 50px;
     height: 43px;
     background-position: -273px -9px;
+    position: relative;
 }
 
 /* ***** =====================
@@ -14300,17 +14303,13 @@ span.select2.select2-container.select2-container--default{
     cursor: pointer;
     float: right;
 }
-.count-badge {
-    background: #7460ee;
-    right: 140px !important;
-    margin-top: -0.75rem !important;
-}
 .dash-top-icon {
     background-image: url(../img/Sprite3.png);
     display: inline-block;
     width: 50px;
     height: 43px;
     background-position: -284px -8px;
+    position: relative;
 }
 .sch-text{
      font-size: 13px;
@@ -14356,17 +14355,13 @@ span.select2.select2-container.select2-container--default{
     cursor: pointer;
     float: right;
 }
-.count-badge {
-    background: #7460ee;
-    right: 225px!important;
-    margin-top: -0.75rem !important;
-}
 .dash-top-icon {
     background-image: url(../img/Sprite3.png);
     display: inline-block;
-    width: 50px;
+    width: 50%;
     height: 43px;
     background-position: -284px -8px;
+    position: relative;
 }
 .sch-text{
   font-size: 12px;
@@ -14387,12 +14382,6 @@ span.select2.select2-container.select2-container--default{
 }
   }
   @media (min-width: 320px) and (max-width: 480px) {
-
-.count-badge {
-    background: #7460ee;
-    right: 2rem !important;
-    margin-top: -0.75rem !important;
-}
 .topbar .nav-item .nav-link {
 
     padding: 0 0px;
@@ -14414,20 +14403,19 @@ span.select2.select2-container.select2-container--default{
 
     width: auto;
 }
+.s-m-text {
+   
+    font-size: 10px !important;
+}
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
-
-.count-badge {
-    background: #7460ee;
-    right: 215px!important;
-    margin-top: -0.75rem !important;
-}
 .dash-top-icon {
     background-image: url(../img/Sprite3.png);
     display: inline-block;
-    width: 50px;
+    width: 50%;
     height: 43px;
     background-position: -282px -9px;
+    position: relative;
 }
 .sch-text{
   position: relative;
@@ -14690,7 +14678,7 @@ ul.info-ul li {
   color: #4267b2;
   top: -16px;
 }
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px){
 
 .edit-delete-div {
     margin: 0 auto;
@@ -14698,6 +14686,11 @@ ul.info-ul li {
 .edit-div, .list-trash-div{
   float: left;
 }
+.count-badge {
+       
+        right: -13px !important;
+
+      }
 }
 @media (min-width: 481px) and (max-width: 767px) {
 .edit-delete-div {
@@ -14776,6 +14769,7 @@ Styling for Select Team page
 .users-card-wrap{
   position: relative;
   top: -11px;
+  left: 20px;
 }
 /*===========
 All Pages Styling
