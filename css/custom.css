@@ -3648,7 +3648,7 @@ input[type="button"].btn-block {
   background-color: #EDEDED;
 }
 
-.dropdown-item:hover::before {
+.profile-menu.dropdown-item:hover::before {
     content: "";
     width: 3px;
     height: 100%;
@@ -14269,7 +14269,7 @@ span.select2.select2-container.select2-container--default{
 .advanceLbl.collapsed label {
     margin-bottom: 0;
 }
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px){
 
 .event-info-icon, .privacy-info-icon {
 
@@ -14302,7 +14302,7 @@ span.select2.select2-container.select2-container--default{
 }
 .count-badge {
     background: #7460ee;
-    right: 154px!important;
+    right: 140px !important;
     margin-top: -0.75rem !important;
 }
 .dash-top-icon {
@@ -14314,6 +14314,8 @@ span.select2.select2-container.select2-container--default{
 }
 .sch-text{
      font-size: 13px;
+     position: relative;
+     left: 15px;
 }
  .new-stream {
 
@@ -14321,7 +14323,7 @@ span.select2.select2-container.select2-container--default{
 }
 .schedule-stream {
 
-    width:35%;
+    width:30%;
 }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -14356,7 +14358,7 @@ span.select2.select2-container.select2-container--default{
 }
 .count-badge {
     background: #7460ee;
-    right: 60px!important;
+    right: 225px!important;
     margin-top: -0.75rem !important;
 }
 .dash-top-icon {
