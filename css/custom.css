@@ -14794,3 +14794,317 @@ All Pages Styling
 .auto-width{
   width: auto;
 }
+/*=====================
+Stored Videos Grid
+=======================*/
+.st-delete-btn button{
+  height: 30px;
+  width: 90px;
+  line-height: 1px;
+  border-radius: 3px;
+}
+.st-select-all input{
+   margin-top: 7px;
+}
+.grid-div i, .list-div i {
+  font-size: 20px;
+}
+.slash-line{
+
+    position: relative;
+    top: -1px;
+}
+.st-search-input {
+    margin: 0 auto;
+}
+.st-search-input input::-webkit-input-placeholder{
+      font-size: 11px;
+}
+.grid-div, .slash-line, .list-div{
+  margin-bottom: inherit;
+}
+.st-search-grid-wrap{
+  border-bottom: 1px solid #eee;
+}
+.st-storage-text p{
+   font-size: 14px;
+}
+.st-storage-wrap label{
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+.st-info-icon{
+  top: -14px;
+}
+.text-line-wrap{
+  border-bottom: 1px solid #ddd;
+}
+.st-progress{
+  height: 7px;
+  width: 90%;
+}
+.st-size-text{
+  font-size: 11px;
+  line-height: 35px;
+}
+.st-img-div{
+  width: 350px;
+  height: 200px;
+  border:1px solid #e7e5e5;
+  background-color: #e7e5e5;
+  margin:0 auto;
+}
+.st-wrap{
+  padding:35px;
+  padding-top: 10px;
+}
+.st-checkboxes{
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.st-trash-btn{
+    background: #d81717;
+    width: 40px;
+    height: 40px;
+    margin-left: 4px;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+}
+.st-trash-btn i{
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    top: 9px;
+    left: 11px;
+}
+.st-info-btn{
+    background: #e1e1e1;
+    width: 40px;
+    height: 40px;
+    margin-left: 4px;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.st-info-btn i{
+    font-size: 19px;
+    padding-left: 4px;
+    color: #858796;
+    position: relative;
+    top: 9px;
+    left: 6px;
+}
+.st-cal-btn{
+    background: #9141e0;
+    width: 40px;
+    height: 40px;
+    margin-left: 4px;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.st-cal-btn i{
+    font-size: 19px;
+    padding-left: 4px;
+    color: #fff;
+    position: relative;
+    top: 9px;
+    left: 6px;
+}
+.st-box-wrap{
+  font-size: 14px;
+  font-weight: 600;
+}
+.st-box-wrap p{
+ color: #a6a6a6;
+}
+.grid-pagi-ul li a{
+  color: #858799 !important;
+  background-color: #f7f7f7;
+}
+.grid-pagi-ul li.disabled span{
+    background: #f7f7f7 !important;
+}
+.grid-pagi-ul .page-item.active .page-link{
+  background-color:  #d81717;
+}
+.grid-pagi{
+  font-size: 11px;
+}
+.pagi-wrap{
+  margin: 0 auto;
+}
+.st-btns-wrap ul li {
+    display: inline-block;
+    text-decoration: none;
+    /* text-align: center; */
+}
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    border: 0;
+}
+.item.list-group-item .img-event {
+    float: left;
+    width: 30%;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.item.list-group-item .caption
+{
+    float: left;
+    width: 70%;
+    margin: 0;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item:after
+{
+    clear: both;
+}
+.st-checkboxes-div input[type="checkbox"] {
+    opacity: 0;
+}
+
+.st-checkboxes-div label {
+    position: relative;
+    display: inline-block;
+    
+    /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+    padding-left: 22px;
+}
+
+.st-checkboxes-div label::before,
+.st-checkboxes-div label::after {
+    position: absolute;
+    content: "";
+    
+    /*Needed for the line-height to take effect*/
+    display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.st-checkboxes-div label::before{
+    height: 16px;
+    width: 16px;
+    color:#e6e6e6;
+    border: 1px solid;
+    left: 0px;
+    
+    /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+     *to vertically center it.
+     */
+    top: 12px;
+}
+
+/*Checkmark of the fake checkbox*/
+.st-checkboxes-div label::after {
+    height: 5px;
+    width: 9px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    
+    transform: rotate(-45deg);
+    
+    left: 4px;
+    top: 16px;
+}
+
+/*Hide the checkmark by default*/
+.st-checkboxes-div input[type="checkbox"] + label::after {
+    content: none;
+}
+
+/*Unhide on the checked state*/
+.st-checkboxes-div input[type="checkbox"]:checked + label::after {
+    content: "";
+    color: #1d89cf;
+}
+.st-checkboxes-div .checkbox_7::before {
+    height: 16px;
+    width: 16px;
+    color: #e6e6e6;
+    border: 1px solid;
+    left: 0px;
+    top: 19px;
+}
+.st-checkboxes-div input[type="checkbox"]:checked + .checkbox_7::after {
+    content: "";
+    color: #1d89cf;
+
+}
+.st-mod-cont{
+  background-color: #f7f7f7;
+}
+.st-mod-header{
+  border-bottom: 1px solid #b7b7b7; 
+}
+.st-mod-header .close{
+  padding:0px;
+}
+.st-mod-header .close span{
+      font-size: 40px;
+    font-weight: 100;
+    color: #000000;
+    position: relative;
+    top: 4px;
+    right: 6px;
+}
+@media (min-width: 320px) and (max-width: 481px) {
+.st-search-input input{
+ width: 200px;   
+}
+.st-img-div {
+    width: auto;
+}
+.st-cal-btn i{
+
+    top: 10px;  
+}
+.st-info-btn i{
+
+    top: 10px;  
+}
+.st-trash-btn i{
+
+    top: 8px;  
+}
+.st-trash-btn {
+   margin-top: 4px;
+  }
+.st-checkboxes-div input[type="checkbox"]:checked + label::after {
+    content: "";
+    color: #1d89cf;
+    top: 19px;
+    left: -18px;
+}
+.st-checkboxes-div label::before {
+    height: 16px;
+    width: 16px;
+    color: #e6e6e6;
+    border: 1px solid;
+    left: -21px;
+    top: 15px;
+}
+}

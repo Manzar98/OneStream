@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ONESTREAM</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- Custom styles for this template-->
+
+  <link href="../css/custom.css" rel="stylesheet">
+  <link href="../css/select2.css" rel="stylesheet">
+
+</head>
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+
+          <ul class="navbar-nav left-menu ">
+
+
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1 schedule-stream">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="dash-top-icon"><span class="badge badge-counter count-badge">3+</span></span>
+                <!-- Counter - Alerts -->
+                
+                <span class="schedule-text d-none d-sm-none d-md-block sch-text"> Scheduled Streams</span>
+                <!-- Counter - Alerts -->
+                <span class="fas fa-caret-down carret"></span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu  shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header">
+                  Alerts Center
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 12, 2019</div>
+                    <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-success">
+                      <i class="fas fa-donate text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 7, 2019</div>
+                    $290.29 has been deposited into your account!
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-warning">
+                      <i class="fas fa-exclamation-triangle text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 2, 2019</div>
+                    Spending Alert: We've noticed unusually high spending for your account.
+                  </div>
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown no-arrow mx-1 new-stream">
+              <a class="nav-link dropdown-toggle" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+               <span class="fa fa-plus plus-icon"></span>
+               <span class="schedule-text new-text"> New Stream</span>
+               <!-- Counter - Alerts -->
+
+             </a>
+             <!-- Dropdown - Alerts -->
+             <div class="dropdown-list dropdown-menu  shadow animated--grow-in" aria-labelledby="alertsDropdown">
+              <h6 class="dropdown-header">
+                Alerts Center
+              </h6>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="mr-3">
+                  <div class="icon-circle bg-primary">
+                    <i class="fas fa-file-alt text-white"></i>
+                  </div>
+                </div>
+                <div>
+                  <div class="small text-gray-500">December 12, 2019</div>
+                  <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                </div>
+              </a>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="mr-3">
+                  <div class="icon-circle bg-success">
+                    <i class="fas fa-donate text-white"></i>
+                  </div>
+                </div>
+                <div>
+                  <div class="small text-gray-500">December 7, 2019</div>
+                  $290.29 has been deposited into your account!
+                </div>
+              </a>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="mr-3">
+                  <div class="icon-circle bg-warning">
+                    <i class="fas fa-exclamation-triangle text-white"></i>
+                  </div>
+                </div>
+                <div>
+                  <div class="small text-gray-500">December 2, 2019</div>
+                  Spending Alert: We've noticed unusually high spending for your account.
+                </div>
+              </a>
+              <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+            </div>
+          </li>
+
+
+
+
+          <!-- Topbar Navbar -->
+
+
+
+
+          <!-- Nav Item - Alerts -->
+          <li class="nav-item dropdown no-arrow mx-1">
+            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-bell fa-fw fa-notify-icon"></i>
+              <!-- Counter - Alerts -->
+              <span class="badge  badge-counter notify">3+</span>
+            </a>
+            <!-- Dropdown - Alerts -->
+            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in main-dropdown" aria-labelledby="alertsDropdown">
+              <h6 class="dropdown-header drop-header">
+                <a href="">  Show All Notifications <i class="fas fa-chevron-right fa-pull-right"></i></a>
+              </h6>
+              <a class="dropdown-item d-flex align-items-center noti-padding drop-notifi1" href="#">
+
+                <div class="mr-3 drop-icons">
+                  <div class="icon-circle drop-iconss ">
+                    <i class="fas fa-check text-green"></i>
+                  </div>
+                </div>
+
+                <div class="dark-text">
+
+                  <strong>Sceduled</strong>  <span class=" text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                  <div class="small text-red-date">07 June, 2019, 12:32PM</div>
+                </div>
+                <button type="button" class="close close-btn" data-dismiss="drop-notifi1" aria-hidden="true">×</button>
+              </a>
+              <a class="dropdown-item d-flex align-items-center noti-padding drop-notifi1" href="#">
+
+                <div class="mr-3 drop-icons">
+                  <div class="icon-circle drop-iconss ">
+                    <i class="fas fa-check text-green"></i>
+                  </div>
+                </div>
+
+                <div class="dark-text">
+
+                  <strong>Pending</strong>  <span class=" text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                  <div class="small text-red-date">28 July, 2019, 10:48AM</div>
+                </div>
+                <button type="button" class="close close-btn" data-dismiss="drop-notifi1" aria-hidden="true">×</button>
+              </a>
+              <a class="dropdown-item d-flex align-items-center noti-padding drop-notifi1" href="#">
+
+                <div class="mr-3 drop-icons">
+                  <div class="icon-circle drop-iconss ">
+                    <i class="fas fa-times text-yellow"></i>
+                  </div>
+                </div>
+
+                <div class="dark-text">
+
+                  <strong>Stopped</strong>  <span class=" text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                  <div class="small text-red-date">20 August, 2019, 8:58AM</div>
+                </div>
+                <button type="button" class="close close-btn" data-dismiss="drop-notifi1" aria-hidden="true">×</button>
+              </a>
+
+            </div>
+          </li>
+
+          <!-- Nav Item - Messages -->
+          <li class="nav-item dropdown no-arrow mx-1 streaming">
+            <a class="nav-link dropdown-toggle padding-ten-adding" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="far fa-play-circle fa-fw fa-circle-play-icon"></i>
+              <!-- Counter - Messages -->
+              <span class="badge badge-danger badge-counter">7</span>
+            </a>
+            <!-- Dropdown - Messages -->
+            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+              <h6 class="dropdown-header">
+                Message Center
+              </h6>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="dropdown-list-image mr-3">
+                  <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
+                  <div class="status-indicator bg-success"></div>
+                </div>
+                <div class="font-weight-bold">
+                  <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
+                  <div class="small text-gray-500">Emily Fowler · 58m</div>
+                </div>
+              </a>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="dropdown-list-image mr-3">
+                  <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60" alt="">
+                  <div class="status-indicator"></div>
+                </div>
+                <div>
+                  <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
+                  <div class="small text-gray-500">Jae Chun · 1d</div>
+                </div>
+              </a>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="dropdown-list-image mr-3">
+                  <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60" alt="">
+                  <div class="status-indicator bg-warning"></div>
+                </div>
+                <div>
+                  <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
+                  <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+                </div>
+              </a>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="dropdown-list-image mr-3">
+                  <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt="">
+                  <div class="status-indicator bg-success"></div>
+                </div>
+                <div>
+                  <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
+                  <div class="small text-gray-500">Chicken the Dog · 2w</div>
+                </div>
+              </a>
+              <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+            </div>
+          </li>
+
+
+
+          <!-- Nav Item - User Information -->
+          <li class="nav-item dropdown no-arrow">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+             <div class="d-flex justify-content-center h-100">
+               <div class="image_outer_container">
+                <div class="green_icon"></div>
+                <div class="image_inner_container">
+                 <img src="https://i0.wp.com/tricksmaze.com/wp-content/uploads/2017/04/Stylish-Girls-Profile-Pictures-36.jpg?resize=300%2C300&ssl=1">
+               </div>
+             </div>
+           </div>
+         </a>
+         <!-- Dropdown - User Information -->
+         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in profile-menu" aria-labelledby="userDropdown">
+          <a class="dropdown-item" href="#">
+
+           ROHINA MEHWISH
+           <p>abc@gmail.com</p>
+         </a>
+         <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="#">
+          <i class="fas fa-cloud-download-alt fa-sm fa-fw mr-2 text-gray-900"></i>
+
+          Schedule Stream
+        </a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">
+          <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-900"></i>
+          Profile
+        </a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">
+          <i class="fas fa-star fa-sm fa-fw mr-2 text-gray-900"></i>
+          Billing & Subscription
+        </a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">
+          <i class="fas fa-dollar-sign fa-sm fa-fw mr-2 text-gray-900"></i>
+
+          Invite & Earn 15%
+        </a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">
+          <i class="fas fa-question-circle fa-sm fa-fw mr-2 text-gray-900"></i>
+
+          Help
+        </a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+          <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-900"></i>
+          Logout
+        </a>
+        <div class="dropdown-divider"></div>
+        <p class="text-center v-no">Version 4.0.3</p>
+
+        <button href="#" class="btn btn-default dropdown-item btn-sm load-version ">  <i class="fas fa-sync-alt fa-fw load-version-icon"></i> Load Latest Version</button>
+      </div>
+    </li>
+
+  </ul>
+
+</nav>
+<!-- End of Topbar -->
+<!-- End of Topbar -->
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+  <!-- Page Heading -->
+  <div class=" align-items-center  mb-4 title">
+    <span class="dash-icons play-stream float-left"></span>
+    <div class="mb-4">
+      <h1 class="h3 mb-0 text-gray-800"><strong>My Stored Videos</strong></h1>
+      <p class="" >List of stored vidoes will come here</p>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row mb-4 pb-4 st-search-grid-wrap">  
+      <div class="col-lg-9 col-sm-12 col-md-7 mt-1 mb-4">
+        <div class="st-checkboxes-div">
+        <input class="form-check-input" type="checkbox" value="" id="checkbox_7">
+        <label for="checkbox_7" class="checkbox_7"></label>
+        </div>
+       <div class="form-check st-select-all">
+        
+        <label class="form-check-label ch-lbl" for="check-box3">
+          Select All
+        </label>
+      </div>  
+      <div class="form-check st-delete-btn">
+       <button class="btn btn-danger upgrade-btn disconectBtn">Delete</button>
+     </div>                 
+   </div>
+   <div class="col-lg-3 col-sm-12 col-md-5">
+    <div class="form-inline">
+      <div class="form-group st-search-input"> 
+        <input type="text" name="" class="form-control" placeholder="Search">
+      </div>
+      <div class="form-group grid-div">
+        <a href="#" id="list"><i class="fas fa-list-ul "></i></a>
+      </div>
+      <div class="form-group mx-2 slash-line">
+       |
+     </div>
+     <div class="form-group list-div">
+      <a href="#" id="grid"><i class="fas fa-th"></i></a>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row text-line-wrap mb-4 pb-4">
+ <div class="col-lg-9 col-sm-12 col-md-6 mt-1 mb-4 st-storage-text"> 
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   tempor incididunt ut labore et dolore magna aliqua.</p>
+ </div>
+ <div class="col-lg-3 col-sm-12 col-md-5 st-storage-wrap"> 
+   <label>Storage <span class="background-icons delete-info-icon st-info-icon" data-toggle="tooltip" data-placement="top" title="Event Info"></span></label>
+   <div class="progress st-progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>   
+  <p class="st-size-text">15 of 25 GB used</p>                    
+</div>
+</div>
+</div>
+<!-- Content Row -->
+<div id="products" class="row view-group">
+  <!-- Content Column -->
+  <div class="item col-lg-6 mb-4">
+    <!-- Illustrations -->
+    <div class="card shadow mb-4">
+      <div class="card-body st-wrap"><!-- dueBody -->
+       <div class="st-checkboxes-div">
+        <input class="form-check-input st-checkboxes" type="checkbox" value="" id="checkbox_1">
+        <label for="checkbox_1"></label>
+        </div>
+        <div class="st-img-div mb-4">
+
+        </div>
+        <div class="st-box-wrap">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="row mt-2">
+            <div class="st-btns-wrap mx-auto">
+              <ul>
+                <li class="st-cal-btn"><a href=""><i class="far fa-calendar-alt"></i></a></li>
+                <li class="st-info-btn"><a href=""  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-info-circle"></i></a></li>
+                <li class="st-trash-btn"><a href=""><i class="far fa-trash-alt"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="item col-lg-6 mb-4">
+    <!-- Illustrations -->
+    <div class="card shadow mb-4">
+      <div class="card-body st-wrap"><!-- dueBody -->
+        <div class="st-checkboxes-div">
+        <input class="form-check-input st-checkboxes" type="checkbox" value="" id="checkbox_2">
+        <label for="checkbox_2"></label>
+        </div>
+        <div class="st-img-div mb-4">
+
+        </div>
+        <div class="st-box-wrap">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="row mt-2">
+            <div class="st-btns-wrap mx-auto">
+              <ul>
+                <li class="st-cal-btn"><a href=""><i class="far fa-calendar-alt"></i></a></li>
+                <li class="st-info-btn"><a href=""  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-info-circle"></i></a></li>
+                <li class="st-trash-btn"><a href=""><i class="far fa-trash-alt"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <!-- Content Column -->
+  <div class="item col-lg-6 mb-4">
+    <!-- Illustrations -->
+    <div class="card shadow mb-4">
+      <div class="card-body st-wrap"><!-- dueBody -->
+        <div class="st-checkboxes-div">
+        <input class="form-check-input st-checkboxes" type="checkbox" value="" id="checkbox_3">
+        <label for="checkbox_3"></label>
+        </div>
+        <div class="st-img-div mb-4">
+
+        </div>
+        <div class="st-box-wrap">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="row mt-2">
+            <div class="st-btns-wrap mx-auto">
+              <ul>
+                <li class="st-cal-btn"><a href=""><i class="far fa-calendar-alt"></i></a></li>
+                <li class="st-info-btn"><a href=""  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-info-circle"></i></a></li>
+                <li class="st-trash-btn"><a href=""><i class="far fa-trash-alt"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="item col-lg-6 mb-4">
+    <!-- Illustrations -->
+    <div class="card shadow mb-4">
+      <div class="card-body st-wrap"><!-- dueBody -->
+        <div class="st-checkboxes-div">
+        <input class="form-check-input st-checkboxes" type="checkbox" value="" id="checkbox_4">
+        <label for="checkbox_4"></label>
+        </div>
+        <div class="st-img-div mb-4">
+
+        </div>
+        <div class="st-box-wrap">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="row mt-2">
+            <div class="st-btns-wrap mx-auto">
+              <ul>
+                <li class="st-cal-btn"><a href=""><i class="far fa-calendar-alt"></i></a></li>
+                <li class="st-info-btn"><a href=""  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-info-circle"></i></a></li>
+                <li class="st-trash-btn"><a href=""><i class="far fa-trash-alt"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <!-- Content Column -->
+  <div class="item col-lg-6 mb-4">
+    <!-- Illustrations -->
+    <div class="card shadow mb-4">
+      <div class="card-body st-wrap"><!-- dueBody -->
+       <div class="st-checkboxes-div">
+        <input class="form-check-input st-checkboxes" type="checkbox" value="" id="checkbox_5">
+        <label for="checkbox_5"></label>
+        </div>
+        <div class="st-img-div mb-4">
+
+        </div>
+        <div class="st-box-wrap">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="row mt-2">
+            <div class="st-btns-wrap mx-auto">
+              <ul>
+                <li class="st-cal-btn"><a href=""><i class="far fa-calendar-alt"></i></a></li>
+                <li class="st-info-btn"><a href="" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-info-circle"></i></a></li>
+                <li class="st-trash-btn"><a href=""><i class="far fa-trash-alt"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="item col-lg-6 mb-4">
+    <!-- Illustrations -->
+    <div class="card shadow mb-4">
+      <div class="card-body st-wrap"><!-- dueBody -->
+        <div class="st-checkboxes-div">
+        <input class="form-check-input st-checkboxes" type="checkbox" value="" id="checkbox_6">
+        <label for="checkbox_6"></label>
+        </div>
+        <div class="st-img-div mb-4">
+
+        </div>
+        <div class="st-box-wrap">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="row mt-2">
+            <div class="st-btns-wrap mx-auto">
+              <ul>
+                <li class="st-cal-btn"><a href=""><i class="far fa-calendar-alt"></i></a></li>
+                <li class="st-info-btn"><a href="" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-info-circle"></i></a></li>
+                <li class="st-trash-btn"><a href=""><i class="far fa-trash-alt"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="pagi-wrap">
+    <nav aria-label="..." class="grid-pagi">
+      <ul class="pagination grid-pagi-ul">
+        <li class="page-item disabled">
+          <span class="page-link"><<</span>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active">
+          <span class="page-link">
+            2
+            <span class="sr-only">(current)</span>
+          </span>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">>></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content st-mod-cont">
+      <div class="modal-header st-mod-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /.container-fluid -->
+
+</div>
+<!-- End of Main Content -->
+
+
+
+
+</div>
+<!-- End of Content Wrapper -->
+
+</div>
+<!-- End of Page Wrapper -->
+</div>
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+  <i class="fas fa-angle-up"></i>
+</a>
+
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+        <a class="btn btn-primary" href="login.html">Logout</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript-->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<!-- <script src="../js/sb-admin-2.min.js"></script> -->
+
+<!-- Page level plugins -->
+<script src="../vendor/chart.js/Chart.min.js"></script>
+
+<!-- Page level custom scripts -->
+<!-- <script src="../js/demo/chart-area-demo.js"></script> -->
+<!-- <script src="../js/demo/chart-pie-demo.js"></script> -->
+<script src="../vendor/select2.js"></script>
+
+</body>
+<script type="text/javascript">
+  $(document).ready(function(){
+  
+  $('.page-link').on('click',function(){
+    
+    $('.page-item').removeClass('active');
+    console.log($(this).parent().addClass('active'));
+  })
+ $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+            $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+  })
+</script>
+
+</html>
