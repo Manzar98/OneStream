@@ -5446,14 +5446,14 @@ input[type="button"].btn-block {
     padding: 0.5rem 0.75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #4e73df;
-    background-color: #fff;
+    color: #858799;
+    background-color: #f7f7f7;
     border: 1px solid #dddfeb;
   }
 
   .page-link:hover {
     z-index: 2;
-    color: #224abe;
+    color: #858799;
     text-decoration: none;
     background-color: #eaecf4;
     border-color: #dddfeb;
@@ -5462,8 +5462,8 @@ input[type="button"].btn-block {
   .page-link:focus {
     z-index: 2;
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
-    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+    /* -webkit-box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25); */
+    /* box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25); */
   }
 
   .page-link:not(:disabled):not(.disabled) {
@@ -5484,8 +5484,8 @@ input[type="button"].btn-block {
   .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: #4e73df;
-    border-color: #4e73df;
+    /* background-color: #4e73df; */
+    /* border-color: #4e73df; */
   }
 
   .page-item.disabled .page-link {
@@ -5828,7 +5828,6 @@ input[type="button"].btn-block {
     overflow: hidden;
     font-size: 0.75rem;
     background-color: #eaecf4;
-    border-radius: 0.35rem;
   }
 
   .progress-bar {
@@ -14832,14 +14831,19 @@ Stored Videos Grid
 .grid-div a,.list-div a{
   color: #ccc;
 }
+a.active_grid {
+    color: #858588;
+}
 .grid-div, .slash-line, .list-div{
   margin-bottom: inherit;
+  line-height: 2px;
 }
 .st-search-grid-wrap{
   border-bottom: 1px solid #eee;
 }
 .st-storage-text p{
    font-size: 14px;
+   margin-bottom: 0;
 }
 .st-storage-wrap label{
   font-size: 13px;
@@ -14852,12 +14856,15 @@ Stored Videos Grid
   border-bottom: 1px solid #ddd;
 }
 .st-progress{
-  height: 7px;
+  height: 6px;
   width: 90%;
 }
 .st-size-text{
   font-size: 11px;
   line-height: 35px;
+}
+.st-size-text p{
+  margin-bottom: 0;
 }
 .st-img-div{
   width: 350px;
@@ -14929,10 +14936,10 @@ Stored Videos Grid
   font-weight: 600;
 }
 .st-box-wrap p{
- color: #a6a6a6;
+ color: #000;
 }
 .grid-pagi-ul li a{
-  color: #858799 !important;
+  color: #858799;
   background-color: #f7f7f7;
 }
 .grid-pagi-ul li.disabled span{
@@ -14956,7 +14963,7 @@ Stored Videos Grid
 {
     float: none;
     width: 100%;
-    background-color: #fff;
+    background-color: transparent;
     margin-bottom: 30px;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -14978,11 +14985,37 @@ Stored Videos Grid
     margin-bottom: 0px;
     display: inline-block;
 }
+.item.list-group-item .st-checkboxes-div{
+  float: left;
+  clear: both;
+}
+.item.list-group-item .st-img-div{
+  margin: inherit;
+  float: left;
+  margin-right: 1rem;
+}
+.item.list-group-item .st-box-wrap{
+  float: left;
+}
+.item.list-group-item .mb-4{
+  margin-bottom: 0 !important;
+}
+.item.list-group-item  .st-wrap{
+     padding-top: 35px;
+}
 .item.list-group-item .caption
 {
     float: left;
     width: 70%;
     margin: 0;
+}
+.item.list-group-item .st-btns-wrap.mx-auto{
+  margin-left: inherit !important;
+  margin-right: inherit !important;
+}
+
+.item.list-group-item .st-btns-wrap.mx-auto ul{
+  padding-left: 20px;
 }
 
 .item.list-group-item:before, .item.list-group-item:after
@@ -15009,6 +15042,7 @@ Stored Videos Grid
     /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
     padding-left: 22px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .st-checkboxes-div label::before,
