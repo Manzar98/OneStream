@@ -15075,17 +15075,65 @@ Stored Videos Grid
 }
 .st-mod-header{
   border-bottom: 1px solid #b7b7b7;
+  height: 35px;
+  padding: 0px;
 }
 .st-mod-header .close{
   padding:0px;
 }
 .st-mod-header .close span{
-      font-size: 40px;
+    font-size: 40px;
     font-weight: 100;
     color: #000000;
     position: relative;
-    top: 4px;
-    right: 6px;
+    top: 15px;
+    right: 18px;
+}
+.trash-btn-modal,.cal-btn-modal{
+    width: 25px;
+    height: 25px;
+}
+.trash-btn-modal i{
+  color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+}
+.cal-btn-modal i{
+  font-size: 16px;
+    padding-left: 4px;
+    color: #fff;
+    position: relative;
+    top: 0px;
+    left: 1px;
+}
+.st-modal-ul {
+  padding-top: 7px;
+}
+.st-modal-ul li {
+  display: inline-block;
+}
+.st-img-div-modal{
+  width: 270px;
+  height: 150px;
+}
+.st-modal-text-p{
+  font-size: 12px;
+  margin-left: 30px;
+  width: 85%;
+}
+.modal-p{
+  color: #555555;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.st-modal-span{
+  margin-bottom: 5px;
+  color: #555555;
+}
+.st-modal-span span{
+  font-weight: 600;
 }
 @media (min-width: 320px) and (max-width: 481px) {
 .st-search-input input{
@@ -15109,6 +15157,18 @@ Stored Videos Grid
 .st-trash-btn {
    margin-top: 4px;
   }
+.cal-btn-modal{
+  margin-top: 0px;
+}
+.cal-btn-modal i{
+  top: 0px;
+}
+.trash-btn-modal{
+margin-top: 0px;
+}
+.trash-btn-modal i{
+top: 0px;
+}
 .st-checkboxes-div input[type="checkbox"]:checked + label::after {
     content: "";
     color: #1d89cf;
