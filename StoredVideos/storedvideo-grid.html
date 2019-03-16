@@ -44,7 +44,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="dash-top-icon"><span class="badge badge-counter count-badge">3+</span></span>
                 <!-- Counter - Alerts -->
-                
+
                 <span class="schedule-text d-none d-sm-none d-md-block sch-text"> Scheduled Streams</span>
                 <!-- Counter - Alerts -->
                 <span class="fas fa-caret-down carret"></span>
@@ -337,33 +337,28 @@
 <div class="container-fluid">
 
   <!-- Page Heading -->
-  <div class=" align-items-center  mb-4 title">
+  <div class=" align-items-center mt-5 ml-2 title">
     <span class="dash-icons play-stream float-left"></span>
-    <div class="mb-4">
+    <div class="mb-0">
       <h1 class="h3 mb-0 text-gray-800"><strong>My Stored Videos</strong></h1>
       <p class="" >List of stored vidoes will come here</p>
     </div>
   </div>
   <div class="container-fluid">
-    <div class="row mb-4 pb-4 st-search-grid-wrap">  
-      <div class="col-lg-9 col-sm-12 col-md-7 mt-1 mb-4">
+    <div class="row st-search-grid-wrap">
+      <div class="col-lg-9 col-sm-12 col-md-7 mt-1 mb-3">
         <div class="st-checkboxes-div">
-        <input class="form-check-input" type="checkbox" value="" id="checkbox_7">
-        <label for="checkbox_7" class="checkbox_7"></label>
-        </div>
-       <div class="form-check st-select-all">
-        
-        <label class="form-check-label ch-lbl" for="check-box3">
-          Select All
-        </label>
-      </div>  
-      <div class="form-check st-delete-btn">
+         <input class="form-check-input st-checkboxes" type="checkbox" value="" id="checkbox_90">
+         <label for="checkbox_90">  Select All</label>
+         </div>
+
+      <div class="st-delete-btn">
        <button class="btn btn-danger upgrade-btn disconectBtn">Delete</button>
-     </div>                 
+     </div>
    </div>
-   <div class="col-lg-3 col-sm-12 col-md-5">
+   <div class="col-lg-3 col-sm-12 col-md-5 mt-2">
     <div class="form-inline">
-      <div class="form-group st-search-input"> 
+      <div class="form-group st-search-input">
         <input type="text" name="" class="form-control" placeholder="Search">
       </div>
       <div class="form-group grid-div">
@@ -380,16 +375,16 @@
 </div>
 
 <div class="row text-line-wrap mb-4 pb-4">
- <div class="col-lg-9 col-sm-12 col-md-6 mt-1 mb-4 st-storage-text"> 
+ <div class="col-lg-9 col-sm-12 col-md-6 mt-1 mb-4 st-storage-text">
    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
    tempor incididunt ut labore et dolore magna aliqua.</p>
  </div>
- <div class="col-lg-3 col-sm-12 col-md-5 st-storage-wrap"> 
+ <div class="col-lg-3 col-sm-12 col-md-5 st-storage-wrap">
    <label>Storage <span class="background-icons delete-info-icon st-info-icon" data-toggle="tooltip" data-placement="top" title="Event Info"></span></label>
    <div class="progress st-progress">
     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-  </div>   
-  <p class="st-size-text">15 of 25 GB used</p>                    
+  </div>
+  <p class="st-size-text">15 of 25 GB used</p>
 </div>
 </div>
 </div>
@@ -419,7 +414,7 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   </div>
   <div class="item col-lg-6 mb-4">
@@ -445,7 +440,7 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   </div>
   <!-- Content Column -->
@@ -472,7 +467,7 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   </div>
   <div class="item col-lg-6 mb-4">
@@ -498,7 +493,7 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   </div>
   <!-- Content Column -->
@@ -525,7 +520,7 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   </div>
   <div class="item col-lg-6 mb-4">
@@ -551,7 +546,7 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   </div>
   <div class="pagi-wrap">
@@ -654,9 +649,9 @@
 </body>
 <script type="text/javascript">
   $(document).ready(function(){
-  
+
   $('.page-link').on('click',function(){
-    
+
     $('.page-item').removeClass('active');
     console.log($(this).parent().addClass('active'));
   })

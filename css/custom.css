@@ -13137,7 +13137,7 @@ input[type="button"].btn-block {
 
       .upgrade-btn {
 
-        background: #dc1427 !important;
+        background: #d81717 !important;
         font-size: 12px;
         height: 42px;
         /*border: 1px solid #FFF;*/
@@ -14404,7 +14404,7 @@ span.select2.select2-container.select2-container--default{
     width: auto;
 }
 .s-m-text {
-   
+
     font-size: 10px !important;
 }
 }
@@ -14687,7 +14687,7 @@ ul.info-ul li {
   float: left;
 }
 .count-badge {
-       
+
         right: -13px !important;
 
       }
@@ -14797,11 +14797,16 @@ All Pages Styling
 /*=====================
 Stored Videos Grid
 =======================*/
+.st-delete-btn {
+  display: inline-block;
+}
 .st-delete-btn button{
   height: 30px;
   width: 90px;
   line-height: 1px;
   border-radius: 3px;
+  top: -2px;
+    position: relative;
 }
 .st-select-all input{
    margin-top: 7px;
@@ -14817,8 +14822,15 @@ Stored Videos Grid
 .st-search-input {
     margin: 0 auto;
 }
+.st-search-input input {
+        padding: 0 7px 4px;
+        height: calc(1.7rem);
+}
 .st-search-input input::-webkit-input-placeholder{
       font-size: 11px;
+}
+.grid-div a,.list-div a{
+  color: #ccc;
 }
 .grid-div, .slash-line, .list-div{
   margin-bottom: inherit;
@@ -14983,6 +14995,9 @@ Stored Videos Grid
 {
     clear: both;
 }
+.st-checkboxes-div{
+  display: inline-block;
+}
 .st-checkboxes-div input[type="checkbox"] {
     opacity: 0;
 }
@@ -14990,16 +15005,17 @@ Stored Videos Grid
 .st-checkboxes-div label {
     position: relative;
     display: inline-block;
-    
+
     /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
     padding-left: 22px;
+    font-size: 12px;
 }
 
 .st-checkboxes-div label::before,
 .st-checkboxes-div label::after {
     position: absolute;
     content: "";
-    
+
     /*Needed for the line-height to take effect*/
     display: inline-block;
 }
@@ -15011,11 +15027,11 @@ Stored Videos Grid
     color:#e6e6e6;
     border: 1px solid;
     left: 0px;
-    
+
     /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
      *to vertically center it.
      */
-    top: 12px;
+    top: 0px;
 }
 
 /*Checkmark of the fake checkbox*/
@@ -15024,11 +15040,11 @@ Stored Videos Grid
     width: 9px;
     border-left: 2px solid;
     border-bottom: 2px solid;
-    
+
     transform: rotate(-45deg);
-    
+
     left: 4px;
-    top: 16px;
+    top: 4px;
 }
 
 /*Hide the checkmark by default*/
@@ -15058,7 +15074,7 @@ Stored Videos Grid
   background-color: #f7f7f7;
 }
 .st-mod-header{
-  border-bottom: 1px solid #b7b7b7; 
+  border-bottom: 1px solid #b7b7b7;
 }
 .st-mod-header .close{
   padding:0px;
@@ -15073,22 +15089,22 @@ Stored Videos Grid
 }
 @media (min-width: 320px) and (max-width: 481px) {
 .st-search-input input{
- width: 200px;   
+ width: 200px;
 }
 .st-img-div {
     width: auto;
 }
 .st-cal-btn i{
 
-    top: 10px;  
+    top: 10px;
 }
 .st-info-btn i{
 
-    top: 10px;  
+    top: 10px;
 }
 .st-trash-btn i{
 
-    top: 8px;  
+    top: 8px;
 }
 .st-trash-btn {
    margin-top: 4px;
